@@ -1,0 +1,23 @@
+.app {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    /* overflow-x: hidden; */
+    
+
+    .sections {
+      width: 100vw;
+      height: calc(100vh - 60px); 
+      position: relative;
+      scroll-snap-type: y mandatory;
+  
+    
+        > *{
+          width: 100vw;
+          height: calc(100vh - 60px);
+          scroll-snap-align: start;
+        }
+
+    }
+  }
