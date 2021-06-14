@@ -3,35 +3,30 @@
 @import 'https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700';
 @import 'https://fonts.googleapis.com/css?family=Raleway:400,400i,700';
 
-
 // PRZEBUDOWA NA MAKSA
 
 .navbar {
     height: 60px;
     width: 100vw;
     // background: linear-gradient(300deg, #005555, #005454, #005050, #004b4b, #004545, #003e3e, #003636, #002f2f, #002929, #002424, #002020, #001f1f);
-    background: linear-gradient(270deg, #445e5e, #425d5d, #3c5a5b, #355457, #2c4c51, #234349, #1a3841, #132d37, #0e242e, #0a1c26, #081720, #07151e);
+    // background: linear-gradient(270deg, #445e5e, #425d5d, #3c5a5b, #355457, #2c4c51, #234349, #1a3841, #132d37, #0e242e, #0a1c26, #081720, #07151e);
+    background: #004545;
     color: white;
-    display: flex;
     justify-content: center;
     align-items: center;
     letter-spacing: .2rem;
     vertical-align: middle;    
-//   font-size: 1.2rem;
-//   position: sticky;
-//   top: 0;
-//   z-index: 999;   
+
     .nav-container {
         display: flex;
         justify-content: center;
         align-items: center;
-        display: flex;
         height: 60px;
         width: 100%;
-        display: flex;
         max-width: 1500px;  
 
         .nav-logo {
+            display: flex;
             color: white;
             font-weight: 700;
             justify-self: start;
@@ -39,7 +34,6 @@
             cursor: pointer;
             text-decoration: none;
             font-size: 2.4rem;
-            display: flex;
             align-items: center;
             left: 0;
             font-family: Raleway, sans-serif;
@@ -49,7 +43,7 @@
                     color: gold;
                     transform: rotate(-3deg); 
                     transition: all .5s ease;                
-                   }
+                    }
                 
         .nav-menu {
             display: grid;
@@ -63,114 +57,66 @@
 
             .nav-item {
                 height: 60px;
-                vertical-align: middle;
-
                 .nav-links {
                     color: white;
-                    display: flex;
+                    display: grid;
                     align-items: center;
                     text-decoration: none;
                     padding: 0rem 1rem;
                     height: 100%;
-                    vertical-align: middle;
                     font-size: 1rem;
-                    }
-                  
-                    .nav-links:hover {
+                    }    
+
+                .nav-links:hover {
                     color: gold;
-                    transition: all 0.5s ease-out;          
-                        }    
-                             
-                }        
+                    transition: all 1s;          
+                }                                 
+            }        
         }
     }
-}
+}   
 
-.nav-links-mobile {
-  display: none;
-}
+        .menu-icon {
+        display: none;
+        }
 
-.menu-icon {
-  display: none;
-}
+        @media screen and (max-width: 770px) {
+            .nav-menu {
+                position: absolute;
+                top: 70px;
+                }
 
-@media screen and (max-width: 780px) {
-    .nav-menu {
-        display: grid;
-        // grid-template-rows: auto;
-        width: 100%;
-        height: 90vh;
-        position: absolute;
-        top: 60px;
-        right: -100%;
-        opacity: 1;
-        transition: all 2s;
-  }
+            .nav-menu.active {
+                grid-template-columns: 1fr !important;
+                height: 68vh;
+                top: 70px;
+                border-radius: 5px;
+                grid-column: 1fr;
+                background: #004545;
+                opacity: .95;
+                z-index: 10;
+                transition: all .7s;
+                padding: 0;
+                align-items: center;
+                margin: auto;
+                
+                .nav-item {
+                    text-align: center;
+                    }
+            }
 
-  .nav-menu.active {
-    display: grid;
-    // grid-template-rows: auto;
-    background: black;
-    // color: black;
-    left: 0;
-    opacity: .95;
-    z-index: 10;
-    width: 100vw;
-    transition: all 1s;
-  }
+        .nav-logo {
+            position: absolute;
+            }
 
-  .nav-links {
-    display: grid;
-    // flex-direction: column;
-    text-align: center;
-    padding: 2rem;
-    width: 100%;
-  }
-
-  .nav-links:hover {
-    background-color: lightblue;
-    color: black;
-    border-radius: 0;
-  }
-
-  .nav-logo {
-    position: absolute;
-    // top: 0;
-    // left: 0;
-    // transform: translate(50%, 50%);
-  }
-
-  .menu-icon {
-    display: block;
-    position: absolute;
-    // vertical-align: middle;
-    top: 0;
-    right: 0;
-    transform: translate(-40%, 40%);
-    font-size: 1.8rem;
-    cursor: pointer;
-    // transition: 500ms;
-  }
-
-
-//   .nav-links-mobile {
-//     display: block;
-//     text-align: center;
-//     margin: 2rem auto;
-//     border-radius: 4px;
-//     width: 100%;
-//     text-decoration: none;
-//     font-size: 1.5rem;
-//     // background-color: transparent;
-//     color: #fff;
-//     padding: 14px 20px;
-//     border: 1px solid #fff;
-//     transition: all 1s ease-out;
-//   }
-
-//   .nav-links-mobile:hover {
-//     background: red;
-//     color: black;
-//     transition: all 1s;
-//   }
-}
+        .menu-icon {
+            display: block;
+            position: absolute;
+            color: #57c238;
+            top: 0;
+            right: 2vw;
+            transform: translate(-40%, 40%);
+            font-size: 1.8rem;
+            cursor: pointer;
+            }
+        }
