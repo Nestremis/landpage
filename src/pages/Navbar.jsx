@@ -1,11 +1,13 @@
 import React, {useState} from 'react';
-// import {Link} from 'react-router-dom';
 import { HashLink as Link } from 'react-router-hash-link';
 import './navbar.scss';
+import { FcIdea } from 'react-icons/fc';
+// import { GiCompass } from 'react-icons/gi';
+import { AiOutlineMenu } from 'react-icons/ai';
+
+
 
 const Navbar = () => {
-
-    // PRZEBUDOWA NA MAKSA
 
     const [click, setClick] = useState(false);
     
@@ -19,8 +21,10 @@ const Navbar = () => {
             <div className='nav-container'>
                 
                 <Link smooth to='#intro' className='nav-logo' onClick={closeMobileMenu}>
-                     I  know.   <i className='img'/>
+                     I  know. 
                 </Link>
+                    
+                <i className='bulb'> <FcIdea /> </i>                    
                 
                 <ul className={click ? 'nav-menu active' : 'nav-menu'} >
 
@@ -51,7 +55,11 @@ const Navbar = () => {
                 </ul>
                   
                     <div className='menu-icon' onClick={handleClick} >  
-                        <i className={click ? 'fas fa-times' : 'fas fa-bars' } />   
+                        {/*<Hamburger toggled={isOpen} toggle={setOpen} className='menu-icon' /> */}
+                        {/* <i className={click ? 'fas fa-compass': 'far fa-compass' } />  */}
+                        {/* <GiCompass/> */}
+                        <AiOutlineMenu/>
+                        
                     </div>
 
                 </div>

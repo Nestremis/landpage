@@ -10,6 +10,8 @@ const Intro = () => {
             
             
                 <h1> WELCOME! <br/>  </h1>
+                <p> Zrozumieć zapamiętać zastosować </p>
+                Znaczenie ma metoda. Wiedza jest jak bumerang - wróci do Ciebie, ale musisz rzucić mocno i umiejętnie. Trzeba pracować nei ciężko, a mądrze. 
 
                 {/* <img src='/media/introImg.jpg' alt='girl learnig remotely'/>  */}
 

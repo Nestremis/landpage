@@ -1,16 +1,15 @@
 // @import '../global.scss';
-
 @import 'https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700';
 @import 'https://fonts.googleapis.com/css?family=Raleway:400,400i,700';
-
-// PRZEBUDOWA NA MAKSA
 
 .navbar {
     height: 60px;
     width: 100vw;
-    // background: linear-gradient(300deg, #005555, #005454, #005050, #004b4b, #004545, #003e3e, #003636, #002f2f, #002929, #002424, #002020, #001f1f);
+    // background: linear-gradient(180deg, #005555, #005454, #005050, #004b4b, #004545, #003e3e, #003636, #002f2f, #002929, #002424, #002020, #001f1f);
+    // background: linear-gradient(0deg, #002020, #002121, #002424, #002929, #002f2f, #003636, #003d3d, #004444, #004b4b, #005050, #005454, #005555);
+    background: linear-gradient(0deg, #002020, #002424, #002929, #002e2e, #003232, #003737, #003c3c, #004141, #004646, #004b4b, #005050, #005555);
     // background: linear-gradient(270deg, #445e5e, #425d5d, #3c5a5b, #355457, #2c4c51, #234349, #1a3841, #132d37, #0e242e, #0a1c26, #081720, #07151e);
-    background: #004545;
+    // background: #004545;
     color: white;
     justify-content: center;
     align-items: center;
@@ -30,20 +29,27 @@
             color: white;
             font-weight: 700;
             justify-self: start;
-            margin-left: 20px;
+            margin-left: 2vw;
             cursor: pointer;
             text-decoration: none;
             font-size: 2.4rem;
-            align-items: center;
             left: 0;
             font-family: Raleway, sans-serif;
             transition: all 1.5s ease;   
+            min-width: 150px;
          }
+
             .nav-logo:hover {
                     color: gold;
-                    transform: rotate(-3deg); 
-                    transition: all .5s ease;                
-                    }
+                    transform: translateX(15px);          
+            }
+
+            .bulb {
+                margin-left: 1.5vw;
+                font-size: 2.4rem;
+                left: 24vw;
+                position: fixed;
+            }
                 
         .nav-menu {
             display: grid;
@@ -64,23 +70,23 @@
                     text-decoration: none;
                     padding: 0rem 1rem;
                     height: 100%;
-                    font-size: 1rem;
+                    font-size: .9rem;
                     }    
 
-                .nav-links:hover {
-                    color: gold;
-                    transition: all 1s;          
-                }                                 
+                    .nav-links:hover {
+                        color: gold;
+                        transition: all 1s;          
+                    }                                 
             }        
         }
     }
 }   
 
         .menu-icon {
-        display: none;
+             display: none;
         }
 
-        @media screen and (max-width: 770px) {
+        @media screen and (max-width: 800px)  {
             .nav-menu {
                 position: absolute;
                 top: 70px;
@@ -91,32 +97,59 @@
                 height: 68vh;
                 top: 70px;
                 border-radius: 5px;
-                grid-column: 1fr;
                 background: #004545;
-                opacity: .95;
+                opacity: .99;
                 z-index: 10;
                 transition: all .7s;
                 padding: 0;
                 align-items: center;
-                margin: auto;
+                width: 50px;
                 
                 .nav-item {
                     text-align: center;
                     }
             }
 
-        .nav-logo {
-            position: absolute;
+            .nav-logo {
+                position: absolute;
+                padding: 0rem .5rem;
+                }
+
+            .bulb {
+                left: 175px !important;
+                margin-left: 1.5vw !important;
+                }
+
+            .menu-icon {
+                position: fixed;
+                display: flex;
+                color: white;
+                justify-content: center;
+                align-items: center;
+                right: 2vw;
+                font-size: 1.8rem;
+                cursor: pointer;
+                transition: all .5s;
+                }      
+
+            .menu-icon:hover{
+                // transform: rotate(45deg); 
+                color: #57c238;
+                // color: lime;
             }
 
-        .menu-icon {
-            display: block;
-            position: absolute;
-            color: #57c238;
-            top: 0;
-            right: 2vw;
-            transform: translate(-40%, 40%);
-            font-size: 1.8rem;
-            cursor: pointer;
-            }
-        }
+        @media screen and (max-width: 270px) {
+                .nav-logo {
+                position: absolute;
+                padding: 0rem;
+                font-size: smaller;
+                letter-spacing: 0;
+                }
+
+                .bulb {
+                    display: none;
+                }
+         }
+    }
+
+   

@@ -6,7 +6,9 @@ function Contact() {
     return (
         <div className='contact' id='kontakt'>
         Kontakt
-         <img src='./photo/remote-edu.png' alt='grafika edu' className='graph' />  
+            <div className='imgBox'>         
+                <img src='media/eduremote.png' alt='grafika edu' />  
+            </div>
         </div>
     )
 }
