@@ -23,8 +23,12 @@ const Navbar = () => {
                 <Link smooth to='#intro' className='nav-logo' onClick={closeMobileMenu}>
                      I  know. 
                 </Link>
+                
+                <Link smooth to='#intro' className='bulb' onClick={closeMobileMenu}>
+                    <FcIdea />
+                </Link>
                     
-                <i className='bulb'> <FcIdea /> </i>                    
+                <i >  </i>                    
                 
                 <ul className={click ? 'nav-menu active' : 'nav-menu'} >
 

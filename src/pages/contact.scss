@@ -1,9 +1,31 @@
+@import '../global.scss';
+
+
 .contact {
+    display:flex; 
+    flex-direction:column; 
     background-color: lightgrey;
-    display: block;
+    // display: block;
+    height: calc(100vh - 140px);
 
     .imgBox{
         // width: 30vh;
         // height: 30vh;
+    }
+    
+    footer {
+        margin-top:auto; 
+        width: 100vw;
+        // position: absolute;
+        bottom: 0;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: white;
+        height: 60px;
+        // background-color: $primary-color;
+        background: linear-gradient(180deg, #004545, #004242, #003e3e, #003b3b, #003838, #003434, #003131, #002d2d, #002a2a, #002727, #002323, #001515);
+        background: linear-gradient(0deg, #000000, #040a0a, #071212, #0b1817, #0d1d1d, #0d2222, #0d2828, #0c2e2d, #0a3333, #083939, #043f3f, #004545);
     }
 }

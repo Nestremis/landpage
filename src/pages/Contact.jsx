@@ -9,6 +9,7 @@ function Contact() {
             <div className='imgBox'>         
                 <img src='media/eduremote.png' alt='grafika edu' />  
             </div>
+            <footer> Saionara! </footer>
         </div>
     )
 }

@@ -5,16 +5,17 @@
 .navbar {
     height: 60px;
     width: 100vw;
-    // background: linear-gradient(180deg, #005555, #005454, #005050, #004b4b, #004545, #003e3e, #003636, #002f2f, #002929, #002424, #002020, #001f1f);
-    // background: linear-gradient(0deg, #002020, #002121, #002424, #002929, #002f2f, #003636, #003d3d, #004444, #004b4b, #005050, #005454, #005555);
-    background: linear-gradient(0deg, #002020, #002424, #002929, #002e2e, #003232, #003737, #003c3c, #004141, #004646, #004b4b, #005050, #005555);
-    // background: linear-gradient(270deg, #445e5e, #425d5d, #3c5a5b, #355457, #2c4c51, #234349, #1a3841, #132d37, #0e242e, #0a1c26, #081720, #07151e);
-    // background: #004545;
+    background: #004545;
+    background: linear-gradient(0deg, #004545, #043f3f, #083939, #0a3333, #0c2e2d, #0d2828, #0d2222, #0d1d1d, #0b1817, #071212, #040a0a, #000000);
+    background: linear-gradient(360deg, #004545, #004141, #003e3e, #003a3a, #003737, #003434, #003030, #002d2d, #002a2a, #002626, #002323, #002020);
+    background: linear-gradient(360deg, #004545, #004343, #004141, #003f3f, #003d3d, #003b3b, #003939, #003737, #003636, #003434, #003232, #003030);
+    background: linear-gradient(360deg, #003030, #003232, #003434, #003636, #003737, #003939, #003b3b, #003d3d, #003f3f, #004141, #004343, #004545);
     color: white;
     justify-content: center;
     align-items: center;
     letter-spacing: .2rem;
     vertical-align: middle;    
+    box-shadow: 0 5px 5px -1px black;   
 
     .nav-container {
         display: flex;
@@ -86,8 +87,9 @@
              display: none;
         }
 
-        @media screen and (max-width: 800px)  {
+        @media screen and (max-width: 768px)  {
             .nav-menu {
+                display: none;
                 position: absolute;
                 top: 70px;
                 }
@@ -134,7 +136,8 @@
 
             .menu-icon:hover{
                 // transform: rotate(45deg); 
-                color: #57c238;
+                // color: #57c238;
+                color: gold;
                 // color: lime;
             }
 
