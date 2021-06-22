@@ -21,7 +21,7 @@ const Navbar = () => {
             <div className='nav-container'>
                 
                 <Link smooth to='#intro' className='nav-logo' onClick={closeMobileMenu}>
-                     I  know. 
+                     i  know. 
                 </Link>
                 
                 <Link smooth to='#intro' className='bulb' onClick={closeMobileMenu}>

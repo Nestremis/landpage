@@ -1,6 +1,6 @@
 import React from 'react';
 import './intro.scss';
-import Typewriter from 'react-simple-typewriter'
+// import Typewriter from 'react-simple-typewriter'
 import 'react-simple-typewriter/dist/index.css'
 
 const Intro = () => {
@@ -12,9 +12,9 @@ const Intro = () => {
             {/* <video src='/media/neurons.mov' autoPlay loop muted />  */}
 
             
-                <h1> Angielski jest prosty:  <br/> {' '}
+                <h1> WELCOME! <br/> {' '}
                     {/*  (Welcome! Nice to see you, Hello) */}
-                    <span style={{ color: 'red', fontWeight: 'bold', textAlign: 'center', }}>
+                   {/* <span style={{ color: 'orange', fontWeight: 'bold', textAlign: 'center', }}>
                     <Typewriter
                         loop
                         cursor
@@ -24,7 +24,7 @@ const Intro = () => {
                         delaySpeed={1400}
                         words={['zrozum..', '', 'zapamiętaj..','zastosuj..']}
                     />
-                    </span> 
+                    </span> */}
                 </h1>
                 <h4> ZDALNA NAUKA ANGIELSKIEGO </h4>
 

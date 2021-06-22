@@ -5,17 +5,13 @@
 .navbar {
     height: 60px;
     width: 100vw;
-    background: #004545;
-    background: linear-gradient(0deg, #004545, #043f3f, #083939, #0a3333, #0c2e2d, #0d2828, #0d2222, #0d1d1d, #0b1817, #071212, #040a0a, #000000);
-    background: linear-gradient(360deg, #004545, #004141, #003e3e, #003a3a, #003737, #003434, #003030, #002d2d, #002a2a, #002626, #002323, #002020);
-    background: linear-gradient(360deg, #004545, #004343, #004141, #003f3f, #003d3d, #003b3b, #003939, #003737, #003636, #003434, #003232, #003030);
-    background: linear-gradient(360deg, #003030, #003232, #003434, #003636, #003737, #003939, #003b3b, #003d3d, #003f3f, #004141, #004343, #004545);
+    background: linear-gradient(180deg, #005050, #004c4c, #004848, #004444, #004040, #003c3c, #003838, #003434, #003030, #002c2c, #002929, #002525);
     color: white;
     justify-content: center;
     align-items: center;
     letter-spacing: .2rem;
     vertical-align: middle;    
-    box-shadow: 0 5px 5px -1px black;   
+    box-shadow: 0px 11px 7px -2px rgba(0,0,0,1);
 
     .nav-container {
         display: flex;
@@ -27,7 +23,8 @@
 
         .nav-logo {
             display: flex;
-            color: white;
+            color: #ffffdd;
+            text-shadow: -8px 1px 2px rgba(0,0,0,0.7);
             font-weight: 700;
             justify-self: start;
             margin-left: 2vw;
@@ -41,8 +38,9 @@
          }
 
             .nav-logo:hover {
-                    color: gold;
-                    transform: translateX(15px);          
+                color: gold;
+                transform: translateX(15px);
+                text-shadow: -12px 0px 5px rgba(0,0,0,0.7);
             }
 
             .bulb {
@@ -52,32 +50,32 @@
                 position: fixed;
             }
                 
-        .nav-menu {
-            display: grid;
-            grid-template-columns: repeat(4, auto);
-            grid-gap: 10px;
-            list-style: none;
-            text-align: center;
-            width: 60vw;
-            justify-content: end;
-            margin-right: 2rem;
+            .nav-menu {
+                display: grid;
+                grid-template-columns: repeat(4, auto);
+                grid-gap: 10px;
+                list-style: none;
+                text-align: center;
+                width: 60vw;
+                justify-content: end;
+                margin-right: 2rem;
 
-            .nav-item {
-                height: 60px;
-                .nav-links {
-                    color: white;
-                    display: grid;
-                    align-items: center;
-                    text-decoration: none;
-                    padding: 0rem 1rem;
-                    height: 100%;
-                    font-size: .9rem;
-                    }    
+                .nav-item {
+                    height: 60px;
+                    .nav-links {
+                        color: white;
+                        display: grid;
+                        align-items: center;
+                        text-decoration: none;
+                        padding: 0rem 1rem;
+                        height: 100%;
+                        font-size: .9rem;
+                        }    
 
-                    .nav-links:hover {
-                        color: gold;
-                        transition: all 1s;          
-                    }                                 
+                        .nav-links:hover {
+                            color: gold;
+                            transition: all 1s;          
+                        }                                 
             }        
         }
     }
@@ -135,10 +133,7 @@
                 }      
 
             .menu-icon:hover{
-                // transform: rotate(45deg); 
-                // color: #57c238;
                 color: gold;
-                // color: lime;
             }
 
         @media screen and (max-width: 270px) {

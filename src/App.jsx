@@ -1,5 +1,5 @@
 import './app.scss';
-import { Route, Switch, useHistory } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Intro from './pages/Intro';
 import Navbar from './pages/Navbar';
 import Method from './pages/Method';
@@ -10,14 +10,14 @@ import Contact from './pages/Contact';
 
 function App() {
 
-  const history = useHistory();
+  // const history = useHistory();
 
-  const handleHistory = () => {
+  // const handleHistory = () => {
 
-  }
+  // }
 
   return (
-    // <Router>  
+    <Router>  
       <div className='app'>
 
         <Navbar>
@@ -39,7 +39,7 @@ function App() {
         </div> 
 
       </div>
-    // </Router>    
+    </Router>    
   );
 }
 

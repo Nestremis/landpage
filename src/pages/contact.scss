@@ -1,31 +1,119 @@
 @import '../global.scss';
+@import 'https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700';
 
 
 .contact {
     display:flex; 
-    flex-direction:column; 
-    background-color: lightgrey;
-    // display: block;
+    width: 100vw;
     height: calc(100vh - 140px);
+    background: url('photo/notes.jpg') center center/cover no-repeat;
+    background-size: cover;
+    object-fit: contain;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 
-    .imgBox{
-        // width: 30vh;
-        // height: 30vh;
+    .emaildiv {
+        display:flex; 
+        flex: 1;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 5vh 25vw 5vh 70vw;
+        border-radius: 10px;
+        height: 65vh;
+        width: 350px;
+        min-width: 200px;
+        background: radial-gradient(circle at 50% 50%, #005050, #004c4c, #004848, #004444, #004040, #003c3c, #003838, #003434, #003030, #002c2c, #002929, #002525);
+        box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+        h1{
+            font-size: 30px;
+            font-family: 'Dancing Script', cursive;           
+            color: orange;
+            min-width: 180px;
+            font-size: 6vh;
+            margin-bottom:20px;
+            padding: 5px;
+            text-shadow: 4px 4px 2px rgba(0,0,0,0.7);
+            text-align: center;
+        }      
+        form {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: #ffffdd;
+            
+            input{
+                border-radius:5px;
+                margin-bottom: 10px;
+                width: 250px;
+                min-height: 25px;
+                font-size: 18px;
+            }
+            input:focus{
+                outline: none;
+                background: rgb(135, 194, 135);
+            }
+
+            textarea{
+                font-size: 18px;
+                border-radius:5px;
+                min-width: 250px;
+                min-height: 200px;
+                margin-bottom: 10px;
+                resize: none;
+            }
+            textarea:focus{
+                outline: none;
+                background: rgb(135, 194, 135);
+            }
+            
+
+         button {
+                border-radius: 5px;
+                background: whitesmoke;
+                color: black;
+                transition: all .5s;
+                border: none;
+                min-width: 100px;
+                font-size: 12px;
+                font-weight: 700;
+                letter-spacing: 3px;    
+                cursor: pointer;
+                text-align: center;
+                min-height: 30px;
+            }
+            button:hover {
+                background: limegreen;
+                }
+            button:active {
+                color: orange;             
+            }
+        }
     }
     
     footer {
         margin-top:auto; 
         width: 100vw;
-        // position: absolute;
         bottom: 0;
         text-align: center;
         display: flex;
         flex-direction: column;
         justify-content: center;
         color: white;
-        height: 60px;
-        // background-color: $primary-color;
-        background: linear-gradient(180deg, #004545, #004242, #003e3e, #003b3b, #003838, #003434, #003131, #002d2d, #002a2a, #002727, #002323, #001515);
-        background: linear-gradient(0deg, #000000, #040a0a, #071212, #0b1817, #0d1d1d, #0d2222, #0d2828, #0c2e2d, #0a3333, #083939, #043f3f, #004545);
+        height: 15vh;
+        background: linear-gradient(180deg, #005050, #004c4c, #004848, #004444, #004040, #003c3c, #003838, #003434, #003030, #002c2c, #002929, #002525);
+
+        h2 {
+            color: orange;
+            font-family: Raleway, sans-serif;
+            margin-bottom: 5vh;
+        }
+
+        h6 {
+            bottom: 2vh;
+        }
     }
 }
