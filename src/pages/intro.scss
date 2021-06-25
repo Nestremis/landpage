@@ -13,37 +13,81 @@
 //     height: 100vh;
 //     z-index: -999;
 // }
+@import url('https://fonts.googleapis.com/css2?family=Benne&display=swap');
+@import "https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap";
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Great+Vibes&family=Montserrat:wght@100&display=swap');
+
+// @import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Cinzel+Decorative&display=swap');
+// font-family: 'Cinzel', serif;
+// font-family: 'Cinzel Decorative', cursive;
 
 .intro {
     background: url('photo/introPic.png') center center/cover no-repeat;
     background-size: cover;
-    height:100vh;
+    height: 100vh;
     width: 100vw;
     object-fit: contain;
-    display:flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-bottom: .2px solid gray;
+    // border-bottom: 1px solid gray;
 
-
-    
     h1 {
         font-family: 'Raleway', sans-serif;
-        font-size: 6rem;
-        color: hsl(0,0,18);
-        border: 2px solid black; 
-        }    
-
-    h4 {
+        font-size: 16vmin;
+        color: hsl(0, 0, 12);
+        // color: rgb(25, 34, 34);
+        border: 2px solid hsl(0, 0, 15);
+        // border-bottom: 3px solid hsl(0, 0, 15);
+        margin-bottom: 1vh;
+        margin-top: 8vh;
+    }
+    
+    h2 {
         font-family: 'Raleway', sans-serif;
-        margin-top: 5vh;
+        margin-top: 2vh;
+        margin-bottom: 3vh;
         letter-spacing: 4px;
-        font-size: 1.6rem;
-        color: hsl(0,0,0);
+        font-size: 1rem;
+        color: hsl(0, 0, 0);
         text-align: center;
+        padding-bottom: 1vh;
+    }
+    
+    h3{
+        font-family: 'Cormorant Garamond', serif;
+        // font-family: 'Cinzel', serif;      
+        font-size: 3em;
+        // font-family: 'Dancing Script', cursive;
+        margin-bottom: 5vh;
+        margin-top: 5vh;
+        padding: 2vh;
     }
 
-    
-}
+    // h4 {
+    //     font-family: 'Dancing Script', cursive;
+    //     font-size: 1.1rem;
+    //     // font-weight: lighter;
+    //     // margin-bottom: 2vh;
+    //     padding: 2vh;
+    //     font-family: 'Cormorant Garamond', serif;
+    //     // font-family: 'Great Vibes', cursive;
+    //     font-family: 'Cinzel', serif;
+    //     // color: rgb(26, 24, 23);
+    // }
 
+    // h5 {
+    //     // bottom: 5vmin;
+    //     font-size: .9em;
+    //     letter-spacing: 2px;
+    //     font-weight: 500;
+    //     font-family: 'Montserrat', sans-serif;
+    // }
+
+
+}

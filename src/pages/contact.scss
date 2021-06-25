@@ -51,10 +51,12 @@
                 width: 250px;
                 min-height: 25px;
                 font-size: 18px;
+                border-style: inset;
             }
             input:focus{
                 outline: none;
                 background: rgb(135, 194, 135);
+                border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
             }
 
             textarea{
@@ -105,6 +107,7 @@
         color: white;
         height: 15vh;
         background: linear-gradient(180deg, #005050, #004c4c, #004848, #004444, #004040, #003c3c, #003838, #003434, #003030, #002c2c, #002929, #002525);
+        box-shadow: 10px 8px 10px 10px black;
 
         h2 {
             color: orange;

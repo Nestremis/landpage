@@ -2,7 +2,8 @@ import './app.scss';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Intro from './pages/Intro';
 import Navbar from './pages/Navbar';
-import Method from './pages/Method';
+import Lessons from './pages/Lessons';
+import Application from './pages/Application';
 import About from './pages/About';
 import Pricing from './pages/Pricing';
 import Contact from './pages/Contact';
@@ -23,7 +24,8 @@ function App() {
         <Navbar>
           <Switch>
               <Route exact path='/intro' component={Intro} />
-              <Route exact path='/metoda' component={Method} />
+              <Route exact path='/lekcje' component={Lessons} />
+              <Route exact path='/aplikacja' component={Application} />
               <Route exact path='/omnie' component={About} />
               <Route exact path='/cennik' component={Pricing} /> 
               <Route exact path='/kontakt' component={Contact}/>  
@@ -32,7 +34,8 @@ function App() {
 
         <div className='sections'>
             <Intro/>
-            <Method/>
+            <Lessons/>
+            <Application/>
             <About/>
             <Pricing/>
             <Contact/>      

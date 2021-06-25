@@ -1,6 +1,6 @@
 import React from 'react';
 import './intro.scss';
-// import Typewriter from 'react-simple-typewriter'
+import Typewriter from 'react-simple-typewriter'
 import 'react-simple-typewriter/dist/index.css'
 
 const Intro = () => {
@@ -12,21 +12,32 @@ const Intro = () => {
             {/* <video src='/media/neurons.mov' autoPlay loop muted />  */}
 
             
-                <h1> WELCOME! <br/> {' '}
-                    {/*  (Welcome! Nice to see you, Hello) */}
-                   {/* <span style={{ color: 'orange', fontWeight: 'bold', textAlign: 'center', }}>
+            <h1> WELCOME! <br/> {' '} </h1>
+            
+            <h2> ZDALNA NAUKA ANGIELSKIEGO </h2>
+                
+            <h3>
+                   <span style={{ color: 'hsl(0,0%,15%)', fontSize: '600', textAlign: 'center', }}>
                     <Typewriter
                         loop
                         cursor
                         cursorStyle='_'
-                        typeSpeed={350}
-                        deleteSpeed={50}
-                        delaySpeed={1400}
-                        words={['zrozum..', '', 'zapamiętaj..','zastosuj..']}
+                        typeSpeed={50}
+                        deleteSpeed={10}
+                        delaySpeed={3000}
+                        // words={['zrozum..', '', 'zapamiętaj..','zastosuj..', 'HOORAY!']}
+                        words={['zakuj, zdaj, zapomnij...?', '', 'Zrozum.  Zapamiętaj.  Zastosuj. ', '😀']}
                     />
-                    </span> */}
-                </h1>
-                <h4> ZDALNA NAUKA ANGIELSKIEGO </h4>
+                    </span> 
+            </h3>
+                
+                
+            {/* <h4> Jeden język ustawia Cię w korytarzu życia. Dwa języki otwierają każde drzwi po drodze. 
+            </h4>
+            
+            <h5>– Frank Smith, psycholingwista </h5> */}
+
+
 
                 {/* <img src='/media/introImg.jpg' alt='girl learnig remotely'/>  */}
 
@@ -37,3 +48,13 @@ const Intro = () => {
 }
 
 export default Intro
+
+// „With languages, you are at home anywhere” – Edmund de Waal
+// „Znając języki wszędzie czujesz się jak w domu”
+// “Gra­nice mo­jego języ­ka są gra­nica­mi mo­jego świata.” – Ludwig Wittgenstein
+// „One language sets you in a corridor for life. Two Languages open every door along the way.”
+
+//Lekcja w toku... Proszę nie przeszkadzać chyba że masz czekoladę albo znasz angielski 
+
+// words={['zrozum..', '', 'zapamiętaj..','zastosuj..', 'HOORAY!']}
+// words={['Lekcja w toku...', '', 'Proszę nie przeszkadzać','..chyba że masz czekoladę albo znasz angielski']}

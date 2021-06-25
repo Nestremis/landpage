@@ -33,8 +33,14 @@ const Navbar = () => {
                 <ul className={click ? 'nav-menu active' : 'nav-menu'} >
 
                     <li className='nav-item' >
-                         <Link smooth to='#metoda' onClick={closeMobileMenu} className='nav-links'  >
-                             METODA
+                         <Link smooth to='#lekcje' onClick={closeMobileMenu} className='nav-links'  >
+                             LEKCJE
+                         </Link> 
+                    </li>
+
+                    <li className='nav-item' >
+                         <Link smooth to='#aplikacja' onClick={closeMobileMenu} className='nav-links'  >
+                             APLIKACJA
                          </Link> 
                     </li>
 

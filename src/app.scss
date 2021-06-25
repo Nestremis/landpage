@@ -21,3 +21,30 @@
 
     }
   }
+
+  /* width */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: whitesmoke; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: hsl(0, 0%, 15%); 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+@media screen and (max-width: 868px) {
+  ::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+  }

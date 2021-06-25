@@ -16,7 +16,7 @@ function Contact() {
             </div>
             <footer> 
                 <h2> i know. </h2>
-                <h6> Copyright &copy; 2021. All right reserved by <span style={{color: 'limegreen'}}> NES </span>. </h6>
+                <h6> Copyright &copy; 2021. All rights reserved by <span style={{color: 'limegreen'}}> NES </span>. </h6>
             </footer>
         </div>
     )
