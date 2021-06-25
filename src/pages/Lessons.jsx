@@ -1,5 +1,7 @@
 import React from 'react';
 import './lessons.scss';
+import {FcCollaboration} from 'react-icons/fc';
+
 
 const Method = () => {
     return (
@@ -20,7 +22,9 @@ const Method = () => {
                 </div>
 
                 <div className='right'>        
-                    <video src='/media/mechanism.mov' autoPlay loop muted />
+                    <video src='/media/mechanism.mov' autoPlay loop muted >
+                        <FcCollaboration/>
+                    </video>
                 </div>
             </div>
         </div>

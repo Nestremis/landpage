@@ -2,20 +2,23 @@
 
 @import "https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap";
 
+#detach-button-host {
+    display: none !important;
+}
+
 .lessons {
     background: #ffffdd;
     background: url('photo/linen.png');
     display: flex;
     flex-direction: column;
     align-items: center;    
-    border-bottom: 1px solid gray;
-    
+    border-bottom: 1px solid gray;    
     
     .headline {
         width: 25vw;
         height: 4vw;
         background: linear-gradient(180deg, #005050, #004c4c, #004848, #004444, #004040, #003c3c, #003838, #003434, #003030, #002c2c, #002929, #002525);
-        margin-top: 5vh;
+        margin-top: 4vh;
         box-shadow: 2px 2px 4px 3px black;
         margin-left: -65vw;
         h4 {
@@ -32,26 +35,43 @@
 
         .container {
             display: flex;
+            align-items: center;
+            justify-content: center;
+            // margin-top: 4vh;
 
             .left {
-                width: 45vw;
+                width: 55vw;
                 height: 60vh;
+                margin-left: 7vw;
+                // margin: 7vw 7vw 7vw 7vw;
+                border-left:gray 6px solid;
+                border-top: gray 1px solid;
+                padding: 10px;
+                // box-shadow: rgb(62, 67, 71) 7px 8px 10px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
                 margin-top: 5vh;
-                }
+            }
             
             .right {
+                padding: 10px;
                 background-size: cover;    
                 object-fit: contain;                
-                width: 45vw;
+                width: 40vw;
                 height: 60vh;
-                margin-top: 5vh;                
+                margin-right: 2vw;
                 overflow: hidden;
+                // font-size: 3rem;
+                margin-top: 5vh;
+
+                                
                 video {
                     object-fit: cover;
-                    width: 45vw;
-                    height: 60vh;
+                    width: 40vw;
+                    height: 62vh;
                     z-index: -999;
-                    background: #f1eff1;
+                    transform: rotate(90deg);
+                    // margin-top: 10vh;
+                    // background: #f1eff1;
+                    // background: linear-gradient(180deg, #005050, #004c4c, #004848, #004444, #004040, #003c3c, #003838, #003434, #003030, #002c2c, #002929, #002525);
                 }
             }
         }

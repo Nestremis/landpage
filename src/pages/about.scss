@@ -45,6 +45,7 @@
                     border-radius: 5px;
                     margin-right: 3.5vw;
                     background: linear-gradient(180deg, #004040, #003c3c, #003939, #003535, #003131, #002d2d, #002a2a, #002626, #002222, #001e1e, #001b1b, #001717);
+                    background: linear-gradient(180deg, #005050, #004c4c, #004848, #004444, #004040, #003c3c, #003838, #003434, #003030, #002c2c, #002929, #002525);
                     box-shadow: 3px 3px 5px 4px black;
                     overflow: hidden;
                         .picture {
@@ -61,14 +62,16 @@
                             font-size: 6vw;
                             display: block;
                             width: 100%;
-                            // background-size: cover;
                         }
                     }            
                 .right {                              
                     width: 60vw;
-                    height: 60vh;
+                    height: 65vh;
                     margin-top: 5vh;
-                    padding-left: 20px;               
+                    padding-left: 20px;   
+                    border-right:gray 6px solid;
+                    border-top: gray 1px solid;   
+                    line-height: 2;         
                     }
         }            
 }       

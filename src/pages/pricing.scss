@@ -25,18 +25,33 @@
         justify-content: space-evenly;
 
         .headline {
-            width: 25vw;
+            width: 20vw;
             height: 60vh;
             background: linear-gradient(180deg, #005050, #004c4c, #004848, #004444, #004040, #003c3c, #003838, #003434, #003030, #002c2c, #002929, #002525);
             margin: auto;
-            box-shadow: 2px 2px 4px 3px black;
+            // box-shadow: 2px 2px 4px 3px black;
+            box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
             border-radius: 7px;
             display: flex;
             justify-content: center;
-            align-items: center;
-            // margin-left: -65vw;
+            // align-items: center;
+
+            .pound {
+                display: flex;
+                align-content: flex-start;
+                font-size: 3rem;
+                color: orange;
+                width: 6vw;
+                right: 0;
+                // height: 40vh;
+                // background: url('photo/pound-tag.png') center center/cover; 
+                transform: rotate(25deg);
+                // bottom: 10px !important;
+                // background-color: rgb(72, 75, 67);
+            }
+
             h4 {
-                width: 64vw;
+                width: 10vw;
                 font-family: 'Dancing Script', cursive;
                 margin: auto;
                 font-size: 3vw;
@@ -46,8 +61,9 @@
                 align-items: center;
                 font-weight: normal;
             }
+
         }
-        
+
         .left {
             width: 30vw;
             height: 60vh;
@@ -66,7 +82,7 @@
             font-family: 'Dancing Script', cursive;
             background: url('photo/linen.png');
         }
-        
+
         .right {
             background: url('photo/linen.png');
             // border-radius: 7px;

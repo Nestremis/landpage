@@ -1,5 +1,6 @@
 import React from 'react';
 import './pricing.scss';
+import {HiCurrencyPound} from 'react-icons/hi';
 
 const Pricing = () => {
     return (
@@ -15,22 +16,22 @@ const Pricing = () => {
                  </ul>
             </div>
         
-        <div className="headline">
-            <h4> &#160; cennnik </h4>
-            <video src='/media/mechanism.mov' autoPlay loop muted />
-        </div>
-                        
-                <div className='right'>        
-                   <h2> APLIKACJA </h2>
-
-                   <ul>
-                    <li>Subskrypcja ucznia - 0zł</li> <br/>
-                    <li>Subskrypcja próbna 2 tyg.- 0zł </li> <br/>
-                    <li>Subskrypcja 1 rok - 99,0 </li>
-                   </ul>
-                    
-                </div>
+            <div className="headline">
+                <div className="pound"> <HiCurrencyPound/> </div>
+                <h4> &#160; cennnik </h4>
             </div>
+                        
+            <div className='right'>        
+                <h2> APLIKACJA </h2>
+
+                <ul>
+                <li>Subskrypcja ucznia - 0zł</li> <br/>
+                <li>Subskrypcja próbna 2 tyg.- 0zł </li> <br/>
+                <li>Subskrypcja 1 rok - 99,0 </li>
+                </ul>
+                
+            </div>
+        </div>
         </div>
     )
 }
