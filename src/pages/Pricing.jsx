@@ -17,8 +17,8 @@ const Pricing = () => {
             </div>
         
             <div className="headline">
+                <h4> cennnik </h4>
                 <div className="pound"> <HiCurrencyPound/> </div>
-                <h4> &#160; cennnik </h4>
             </div>
                         
             <div className='right'>        

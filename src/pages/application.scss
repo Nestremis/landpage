@@ -3,7 +3,7 @@
 @import "https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap";
 
 .application {
-    height: 121vh !important;
+    height: 122vh !important;
     background: url('photo/greywall.png');
     display: flex;
     flex-direction: column;
@@ -11,7 +11,7 @@
     position: relative;
 
     .headline {
-        width: 25vw;
+        width: 20vw;
         height: 4vw;
         background: linear-gradient(180deg, #005050, #004c4c, #004848, #004444, #004040, #003c3c, #003838, #003434, #003030, #002c2c, #002929, #002525);
         margin-top: 5vh;
@@ -22,7 +22,7 @@
             width: 64vw;
             font-family: 'Dancing Script', cursive;
             color: #ffffdd;
-            margin-left: 5vw;
+            // margin-left: 5vw;
             font-size: 3vw;
             text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.7);
             display: block;
@@ -62,7 +62,7 @@
     .panorama {
         position: absolute;
         // background: url('photo/orangeback.jpg') center/cover no-repeat;
-        background: hsl(32, 100%, 50%);
+        background: hsl(32, 100%, 45%);
         background-size: cover;
         bottom: 0;
         display: flex;
