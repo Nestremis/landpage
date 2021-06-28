@@ -26,7 +26,7 @@ const Intro = () => {
                         deleteSpeed={10}
                         delaySpeed={3000}
                         // words={['zrozum..', '', 'zapamiętaj..','zastosuj..', 'HOORAY!']}
-                        words={['zakuj, zdaj, zapomnij', '...?', 'Zrozum.  Zapamiętaj.  Zastosuj. ', '😀']}
+                        words={['Zakuj. Zdaj.Zapomnij.', '...?', 'Zrozum.  Zapamiętaj.  Zastosuj. ', '😀']}
                     />
                     </span> 
             </h3>

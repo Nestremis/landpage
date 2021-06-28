@@ -14,8 +14,8 @@ const Method = () => {
             <div className="container">   
 
                 <div className='left'>        
-                    Metoda ma ogromny wpływ na szybkość i stopień przyswajania wiedzy. Szkolnictwo niestety nie daje wskazówek JAK sie uczyć
-                    Nauka słówek - aby wykopać dół można to zrobić dłońmi, łopatą, koparką. Zależnie od tego, jakie narzędzie mamy tak szybko lub wolno to idzie. 
+                    METODA MA WPŁYW NA SZYBKOŚĆ I STOPIEŃ PRZYSWAJANIA WIEDZY. Szkolnictwo niestety nie daje wskazówek JAK sie uczyć
+                    Nauka słówek - aby wykopać dół można to zrobić dłońmi, łopatą, koparką. Zależnie od tego, jakie narzędzie mamy tak szybko lub wolno to idzie. <br/>
                     Zrozumieć zapamiętać zastosować ZDALNIE
                     Znaczenie ma metoda. Wiedza jest jak bumerang - wróci do Ciebie, ale musisz rzucić mocno i umiejętnie. Trzeba pracować nei ciężko, a mądrze.AF 177, 180. 
                         Nie ma prostego języka                
