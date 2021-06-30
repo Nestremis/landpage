@@ -1,7 +1,7 @@
 import React from 'react';
 import './intro.scss';
-import Typewriter from 'react-simple-typewriter'
-import 'react-simple-typewriter/dist/index.css'
+import Typewriter from 'react-simple-typewriter';
+import 'react-simple-typewriter/dist/index.css';
 
 const Intro = () => {
     return (
@@ -14,10 +14,10 @@ const Intro = () => {
             
             <h1> WELCOME! <br/> {' '} </h1>
             
-            <h2> ZDALNA NAUKA ANGIELSKIEGO </h2>
+            <h2> ZDALNA  NAUKA  ANGIELSKIEGO</h2>
                 
             <h3>
-                   <span style={{ color: 'hsl(0,0%,15%)', fontSize: '600', textAlign: 'center', }}>
+                   <span style={{ color: 'hsl(0,0%,8%)', fontSize: '600', textAlign: 'center', }}>
                     <Typewriter
                         loop
                         cursor
@@ -26,7 +26,7 @@ const Intro = () => {
                         deleteSpeed={10}
                         delaySpeed={3000}
                         // words={['zrozum..', '', 'zapamiętaj..','zastosuj..', 'HOORAY!']}
-                        words={['Zakuj. Zdaj.Zapomnij.', '...?', 'Zrozum.  Zapamiętaj.  Zastosuj. ', '😀']}
+                        words={['Zakuj. Zdaj. Zapomnij.', '...?', 'Zrozum. Zapamiętaj. Zastosuj. ', '😀']}
                     />
                     </span> 
             </h3>

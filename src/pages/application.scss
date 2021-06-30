@@ -1,66 +1,86 @@
-/* Video from: https://pixabay.com/  */
-
 @import "https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap";
 
 .application {
-    height: 122vh !important;
+    height: 121vh !important;
     background: url('photo/greywall.png');
     display: flex;
-    flex-direction: column;
     align-items: center;
     position: relative;
 
-    .headline {
-        width: 20vw;
-        height: 4vw;
-        background: linear-gradient(180deg, #005050, #004c4c, #004848, #004444, #004040, #003c3c, #003838, #003434, #003030, #002c2c, #002929, #002525);
-        margin-top: 5vh;
-        box-shadow: 2px 2px 4px 3px black;
-        margin-left: -65vw;
+    .arrow {
+        height: 8vh;
+        position: absolute;
+        cursor: pointer;
+        margin-bottom: 30vh;
+        z-index: 100;
 
-        h4 {
-            width: 64vw;
-            font-family: 'Dancing Script', cursive;
-            color: #ffffdd;
-            font-size: 3vw;
-            text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.7);
-            display: block;
-            font-weight: normal;
+        &.left {
+            left: 3vw;
+            transform: rotateY(180deg);
+        }
+
+        &.right {
+            right: 3vw;
         }
     }
 
-    .container {
+    .slide {
+        left: 0;
+        height: 94vh;
         display: flex;
+        position: absolute;
+        margin-bottom: 49vh;
+        transition: all 1s ease-out;
 
-        .left {
-            width: 45vw;
-            height: 60vh;
-            margin-top: 5vh;
-        }
+        .container {
+            width: 100vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 20vh;
 
-        .right {
-            background-size: cover;
-            object-fit: contain;
-            width: 45vw;
-            height: 60vh;
-            margin-top: 5vh;
-            overflow: hidden;
+            .item {
+                width: 78vw;
+                height: 100%;
+                background: url('photo/linen.png');
+                border-radius: 12px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
 
-            video {
-                object-fit: cover;
-                width: 45vw;
-                height: 60vh;
-                z-index: -999;
-                background: #f1eff1;
+                .left {
+                    height: 100%;
+                    flex: 4;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+
+                .right {
+                    height: 100%;
+                    flex: 8;
+                    // background-color: limegreen;
+                }
             }
         }
+
+        &.slide2 {
+            left: -100vw;
+            // left: 0;
+        }
+
+        &.slide3 {
+            left: -200vw;
+            // left: 0;
+        }
     }
+
+
 
     // Zdjęcie autorstwa Belle Co z Pexels
 
-    .panorama {
+    .sentence {
         position: absolute;
-        // background: url('photo/orangeback.jpg') center/cover no-repeat;
         background: hsl(32, 100%, 45%);
         background-size: cover;
         bottom: 0;
@@ -69,27 +89,21 @@
         align-items: center;
         height: 30vh !important;
         width: 100vw;
-        // background-color: limegreen;
+
         h4 {
             font-family: 'Dancing Script', cursive;
             font-size: 1.5rem;
             font-weight: lighter;
             margin-top: 5vh;
-            // text-align:left;
             padding: 2vh;
-            // font-family: 'Cormorant Garamond', serif;
-            // font-family: 'Great Vibes', cursive;
             font-family: 'Cinzel', serif;
-            // color: rgb(26, 24, 23);
             color: linen;
             letter-spacing: 2px;
             border-left: 6px solid darkslategray;
             border-bottom: 1px solid darkslategray;
         }
-        
+
         h5 {
-            // font-weight: lighter;
-            // bottom: 5vmin;
             font-size: .8em;
             letter-spacing: 2px;
             font-weight: 400;
@@ -99,3 +113,23 @@
     }
 
 }
+
+
+// .headline {
+//     width: 20vw;
+//     height: 4vw;
+//     background: linear-gradient(180deg, #005050, #004c4c, #004848, #004444, #004040, #003c3c, #003838, #003434, #003030, #002c2c, #002929, #002525);
+//     margin-top: 5vh;
+//     box-shadow: 2px 2px 4px 3px black;
+//     margin-left: -65vw;
+
+//     h4 {
+//         width: 64vw;
+//         font-family: 'Dancing Script', cursive;
+//         color: #ffffdd;
+//         font-size: 3vw;
+//         text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.7);
+//         display: block;
+//         font-weight: normal;
+//     }
+// }

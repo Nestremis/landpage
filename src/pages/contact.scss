@@ -18,29 +18,24 @@
         flex: 1;
         flex-direction: column;
         justify-content: center;
-        // align-items: center;
         margin: 5vh 15vw 5vh 70vw;
         border-radius: 10px;
         height: 65vh;
         width: 32vw;
         min-width: 200px;
-        background: radial-gradient(circle at 50% 50%, #005050, #004c4c, #004848, #004444, #004040, #003c3c, #003838, #003434, #003030, #002c2c, #002929, #002525);
-        background: linear-gradient(180deg, #004040, #003c3c, #003939, #003535, #003131, #002d2d, #002a2a, #002626, #002222, #001e1e, #001b1b, #001717);
+        background: linear-gradient(330deg, #002525, #002929, #002c2c, #003030, #003434, #003838, #003c3c, #004040, #004444, #004848, #004c4c, #005050);
         box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
 
         h1{
             font-size: 30px;
             font-family: 'Dancing Script', cursive;           
-            color: #ffffdd;
             color: rgb(233, 151, 0);
-
-            // min-width: 180px;
             font-size: 3vw;
             margin-bottom:2vh;
             margin-left: 3vw;
             padding: 5px;
             text-shadow: 4px 4px 2px rgba(0,0,0,0.7);
-            // text-align: ;
             font-weight: normal;
 
         }      
@@ -61,10 +56,6 @@
                 min-height: 25px;
                 border-style: inset;
                 background: url('photo/linen.png');
-
-                
-                
-
             }
             input:focus{
                 outline: none;
@@ -82,7 +73,6 @@
                 margin-bottom: 10px;
                 resize: none;
                 background: url('photo/linen.png');
-
             }
             textarea:focus{
                 outline: none;
@@ -124,7 +114,7 @@
         justify-content: center;
         color: white;
         height: 14vh;
-        background: linear-gradient(180deg, #005050, #004c4c, #004848, #004444, #004040, #003c3c, #003838, #003434, #003030, #002c2c, #002929, #002525);
+        background: linear-gradient(180deg, #004040, #003c3c, #003838, #003434, #003030, #002c2c, #002727, #002323, #001f1f, #001b1b, #001717, #001313);
         box-shadow: 10px 8px 10px 10px black;
 
         h2 {

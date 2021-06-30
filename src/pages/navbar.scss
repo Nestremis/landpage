@@ -5,7 +5,9 @@
 .navbar {
     max-height: 60px;
     width: 100vw;
-    background: linear-gradient(180deg, #005050, #004c4c, #004848, #004444, #004040, #003c3c, #003838, #003434, #003030, #002c2c, #002929, #002525);
+    // background: linear-gradient(180deg, #005050, #004c4c, #004848, #004444, #004040, #003c3c, #003838, #003434, #003030, #002c2c, #002929, #002525);
+    background: linear-gradient(180deg, #005050, #004f4f, #004d4d, #004b4b, #004747, #004444, #004040, #003c3c, #003939, #003636, #003535, #003434);
+    background: linear-gradient(180deg, #005050, #004f4f, #004c4c, #004848, #004343, #003d3d, #003737, #003131, #002c2c, #002929, #002626, #002525);
     color: white;
     justify-content: center;
     align-items: center;
@@ -40,7 +42,7 @@
             font-family: Raleway, sans-serif;
             transition: all 1.5s ease;
             min-width: 10vw;
-            padding: 10px;
+            padding: 15px;
             // height: 80%;
         }
 

@@ -1,32 +1,103 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './application.scss';
 
+
 const Method = () => {
+
+    const [currentSlide, setCurrentSlide] = useState('slide1');
+
+    const handleClick = (e) => {
+        e==='left' 
+            ? setCurrentSlide( currentSlide> 0 ?  currentSlide-1 : 2 ) 
+            : setCurrentSlide(currentSlide)
+    }   
+ 
+    // <section className={(`time-${  
+    //     !clockActive ? 'inactive' : ''
+    //     ||
+    //     breakIsOn ? 'active-breakon' : ''        
+    //     || 
+    //     sessionOn ? 'active' : ''            
+    //   } `) } >
+    //         <p> {timeArray[1]} </p>
+    //         <span>:</span>
+    //         <p>{timeArray[2]}</p>
+    //   </section>   
+
     return (
 
         <div className='application' id='aplikacja'>           
             {/* <video src='/media/neurons.mov' autoPlay loop muted />  */}
-            <div className="headline">
+            {/* <div className="headline">
                 <h4> &#160; aplikacja </h4>
+            </div> */}
+
+            <img src='media/arrow.png' alt='arrow left' className='arrow left' onClick={()=> handleClick('left')}   />
+            <img src='media/arrow.png' alt='arrow right' className='arrow right' onClick={()=> handleClick('right')}  />
+            
+            <div className="slide slide1">   
+                <div className="container">                
+                    <div className="item">                        
+                        <div className="left">
+                            <div className="leftContainer">
+                                <div className="imgContainer">
+                                    <img src='media/eduremote.png' alt='something'/>
+                                    <h2>ONE</h2>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, nostrum distinctio accusantium et adipisci labore atque tempore dignissimos saepe similique, ducimus deserunt quidem.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>                            
+                        <div className="right">
+                            Diabeł tkwi w szczegółach. Jest wiele aplikacji. Nie oznacza to że nie trzeba włożyć wysiłku. 
+                        </div>
+                    </div>      
+                </div>
             </div>
 
-            <div className="container">   
-
-                <div className='left'>        
-                    Metoda ma ogromny wpływ na szybkość i stopień przyswajania wiedzy. Szkolnictwo niestety nie daje wskazówek JAK sie uczyć
-                    Nauka słówek - aby wykopać dół można to zrobić dłońmi, łopatą, koparką. Zależnie od tego, jakie narzędzie mamy tak szybko lub wolno to idzie. 
-                    Zrozumieć zapamiętać zastosować ZDALNIE
-                    Znaczenie ma metoda. Wiedza jest jak bumerang - wróci do Ciebie, ale musisz rzucić mocno i umiejętnie. Trzeba pracować nei ciężko, a mądrze.AF 177, 180. 
-                        Nie ma prostego języka                
+            <div className="slide slide2">   
+                <div className="container">                
+                    <div className="item">                        
+                        <div className="left">
+                            <div className="leftContainer">
+                                <div className="imgContainer">
+                                    <img src='media/eduremote.png' alt='something'/>
+                                    <h2>TWO</h2>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, nostrum distinctio accusantium et adipisci labore atque tempore dignissimos saepe similique, ducimus deserunt quidem.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>                            
+                        <div className="right">
+                            Diabeł tkwi w szczegółach. Jest wiele aplikacji. Nie oznacza to że nie trzeba włożyć wysiłku. 
+                        </div>
+                    </div>      
                 </div>
-
-                <div className='right'>        
-                    {/* <video src='/media/mechanism.mov' autoPlay loop muted /> */}
-                </div>
-
             </div>
 
-            <div className="panorama"> 
+            <div className="slide slide3">   
+                <div className="container">                
+                    <div className="item">                        
+                        <div className="left">
+                            <div className="leftContainer">
+                                <div className="imgContainer">
+                                    <img src='media/eduremote.png' alt='something'/>
+                                    <h2>THREE</h2>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, nostrum distinctio accusantium et adipisci labore atque tempore dignissimos saepe similique, ducimus deserunt quidem.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>                            
+                        <div className="right">
+                            Diabeł tkwi w szczegółach. Jest wiele aplikacji. Nie oznacza to że nie trzeba włożyć wysiłku. 
+                        </div>
+                    </div>      
+                </div>
+            </div>
+
+            
+
+            <div className='sentence'> 
                   <h4> Jeden język ustawia Cię w korytarzu życia. <br/> Dwa języki otwierają każde drzwi po drodze. 
             </h4>
             
