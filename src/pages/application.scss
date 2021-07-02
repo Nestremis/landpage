@@ -5,6 +5,8 @@
     background: url('photo/greywall.png');
     display: flex;
     align-items: center;
+    // justify-content: center;
+    // width: 300vw;
     position: relative;
 
     .arrow {
@@ -24,9 +26,9 @@
         }
     }
 
-    .slide {
-        left: 0;
-        height: 94vh;
+    .slider {
+        left: -2vw;
+        height: 100vh;
         display: flex;
         position: absolute;
         margin-bottom: 49vh;
@@ -38,40 +40,57 @@
             align-items: center;
             justify-content: center;
             margin-top: 20vh;
+            padding: 15px;
 
-            .item {
-                width: 78vw;
-                height: 100%;
+            .slide {
+                width: 70vw;
+                height: 98%;
                 background: url('photo/linen.png');
                 border-radius: 12px;
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+                // padding: 5vw;
+                // margin: auto;
 
-                .left {
-                    height: 100%;
-                    flex: 4;
+                .left-slide-part {
+                    overflow-y: hidden;
+                    height: 96%;
+                    // width: 90%;
+                    flex: 8;
                     display: flex;
                     align-items: center;
                     justify-content: center;
+
+                    .leftContainer {
+                        width: 96%;
+                        height: 96%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+
+                        .imgContainer {
+                            // width: 20vw;
+                            // height: 10vh;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+
+                            img {
+                                max-width: 20vw;
+                            }
+                        }
+                    }
                 }
 
-                .right {
-                    height: 100%;
-                    flex: 8;
-                    // background-color: limegreen;
+                .right-slide-part {
+                    height: 90%;
+                    width: 90%;
+                    flex: 6;
+                    background-color: limegreen;
                 }
             }
-        }
-
-        &.slide2 {
-            left: -100vw;
-            // left: 0;
-        }
-
-        &.slide3 {
-            left: -200vw;
-            // left: 0;
         }
     }
 

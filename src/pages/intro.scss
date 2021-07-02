@@ -35,37 +35,36 @@
         font-family: 'Raleway', sans-serif;
         font-size: 15vmin;
         font-weight: lighter;
-        color: hsl(0, 0%, 15%);
-        color: whitesmoke;
+        color: white;
         border: 2px solid hsl(0, 0%, 23%);
-        border: 2px solid whitesmoke;
+        border: 1px solid white;
         margin-bottom: 1vh;
-        margin-top: 8vh;
+        // margin-top: 6vh;
         z-index: 5;
+        padding: 1vmin;
     }
 
     h2 {
-        color: hsl(0, 0%, 0%);
         z-index: 5;
+        color: hsl(0, 0%, 0%);
+        color: rgb(235, 152, 0);
         color: white;
         font-family: 'Raleway', sans-serif;
         margin-top: 2vh;
         margin-bottom: 3vh;
         letter-spacing: 1vmin;
-        font-size: 2.8vmin;
+        font-size: 2.6vmin;
         text-align: center;
         padding-bottom: 1vh;
-        // font-weight: lighter;
+        font-weight: lighter;
     }
 
     h3 {
-        // font-family: 'Cormorant Garamond', serif;
-        // font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         font-size: 6vmin;
-        // font-family: 'Raleway', sans-serif;
         margin-bottom: 5vh;
         margin-top: 5vh;
         padding: 2vh;
+        z-index: 100;
     }
 
     // h4 {
@@ -92,7 +91,7 @@
 .intro::before {
     content: '';
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.2);
     top: 0;
     left: 0;
     width: 100%;

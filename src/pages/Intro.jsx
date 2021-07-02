@@ -1,6 +1,6 @@
 import React from 'react';
 import './intro.scss';
-import Typewriter from 'react-simple-typewriter';
+// import Typewriter from 'react-simple-typewriter';
 import 'react-simple-typewriter/dist/index.css';
 
 const Intro = () => {
@@ -16,20 +16,20 @@ const Intro = () => {
             
             <h2> ZDALNA  NAUKA  ANGIELSKIEGO</h2>
                 
-            <h3>
-                   <span style={{ color: 'hsl(0,0%,8%)', fontSize: '600', textAlign: 'center', }}>
-                    <Typewriter
-                        loop
-                        cursor
-                        cursorStyle='_'
-                        typeSpeed={50}
-                        deleteSpeed={10}
-                        delaySpeed={3000}
-                        // words={['zrozum..', '', 'zapamiętaj..','zastosuj..', 'HOORAY!']}
-                        words={['Zakuj. Zdaj. Zapomnij.', '...?', 'Zrozum. Zapamiętaj. Zastosuj. ', '😀']}
-                    />
+            {/* <h3>
+                   <span style={{ color: 'white', fontSize: '400', fontWeight:'lighter', textAlign: 'center' }}>
+                        <Typewriter
+                            loop
+                            cursor
+                            cursorStyle='_'
+                            typeSpeed={50}
+                            deleteSpeed={10}
+                            delaySpeed={3200}
+                            // words={['zrozum..', '', 'zapamiętaj..','zastosuj..', 'HOORAY!']}
+                            words={['Zakuj. Zdaj. Zapomnij. .....?', 'Zrozum. Zapamiętaj. Zastosuj. 😀']}
+                        />
                     </span> 
-            </h3>
+            </h3> */}
                 
                 
             {/* <h4> Jeden język ustawia Cię w korytarzu życia. Dwa języki otwierają każde drzwi po drodze. 

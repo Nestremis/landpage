@@ -1,20 +1,4 @@
-// @import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
-// @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&display=swap');
-/* Video from: https://pixabay.com/  */
-
 @import "https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap";
-// @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
-// @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&display=swap');
-// @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
-// @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
-// @import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Jost&display=swap');
-// @import url('https://fonts.googleapis.com/css2?family=Bellota&display=swap');
-// @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap');
-// @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-// @import 'https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700';
-
-
-
 
 #detach-button-host {
     display: none !important;
@@ -47,18 +31,16 @@
         }
     }
 
-        .container {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            // margin-top: 4vh;
-            // @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        // margin-top: 4vh;
+        // @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
             .left {
                 width: 45vw;
                 height: 60vh;
-                // margin-left: 7vw;
-                // margin: 7vw 7vw 7vw 7vw;
-                // border-left:gray 6px solid;
+                border-left:gray 6px solid;
                 border-top: gray 1px solid;
                 padding: 10px;
                 // box-shadow: rgb(62, 67, 71) 7px 8px 10px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
@@ -77,9 +59,8 @@
                 height: 60vh;
                 margin-right: 2vw;
                 overflow: hidden;
-                margin-top: 5vh;
-
-                                
+                margin-top: 5vh;                
+                
                 video {
                     object-fit: cover;
                     width: 40vw;
@@ -92,7 +73,20 @@
                 }
             }
         }
-
+        // @import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+        // @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&display=swap');
+        /* Video from: https://pixabay.com/  */
+        
+        // @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+        // @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&display=swap');
+        // @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+        // @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+        // @import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Jost&display=swap');
+        // @import url('https://fonts.googleapis.com/css2?family=Bellota&display=swap');
+        // @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap');
+        // @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+        // @import 'https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700';
+        
             
-}       
+    }       
     
