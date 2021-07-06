@@ -4,6 +4,13 @@
     display: none !important;
 }
 
+// video {
+//     position: absolute;
+//     object-fit: cover;
+//     width: 100vw;
+//     height: 100vh;
+//     z-index: -999;
+// }
 .lessons {
     background: #ffffdd;
     background: url('photo/linen.png');
@@ -63,10 +70,11 @@
                 
                 video {
                     object-fit: cover;
-                    width: 40vw;
-                    height: 62vh;
+                    width: 44vw;
+                    height: 30vw;
                     z-index: -999;
                     transform: rotate(90deg);
+                    border: gray 2px solid;
                     // margin-top: 10vh;
                     // background: #f1eff1;
                     // background: linear-gradient(180deg, #005050, #004c4c, #004848, #004444, #004040, #003c3c, #003838, #003434, #003030, #002c2c, #002929, #002525);

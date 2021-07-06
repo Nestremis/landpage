@@ -30,7 +30,7 @@ const Method = () => {
 
                 <div className='right'>        
                     <video src='/media/mechanism.mov' autoPlay loop muted >
-                        <FcCollaboration/>
+                        <FcCollaboration />
                     </video>
                 </div>
             </div>
