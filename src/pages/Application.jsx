@@ -12,7 +12,7 @@ const Method = () => {
           id: "1",
           // icon: "media/eduremote.png",
           icon: "",
-          title: "KONCEPT",
+          title: "Koncept",
           desc:
             "METHOD/CONCEPT jest moim narzędziem pracy, które zaprojektowałam w oparciu o doświadczenia z dwóch dziedzin tj. z prowadzonych przeze mnie terapii dla dzieci i młodzieży z trudnościami w nauce oraz własnych doświadczeń związanych z nauką angielskiego. Nie znalazłam odpowiedniego narzędzia. Są oczywiście lepsze i gorsze aplikacje, ale żadna nie spełniała w pełni moich oczekiwań. Diabeł tkwi w szczegółach. Wtedy zrodził się pomysł stworzenia projektu własnego narzędzia do nauki słów obcych i przekazania go do realizacji. KONCEPT polega na użyciu go przeze mnie jako narzędzia podczas lekcji oraz jako aplikacji do samodzielnej nauki dla innych. / What is wrong with you, stupido? ",
           img: <img src='media/bulb-hand.jpg' alt='bulb-with-cap.jpg'/>,
@@ -20,17 +20,17 @@ const Method = () => {
         {
           id: "2",
           icon: "",
-          title: "TITLE 2",
+          title: "Metodyka",
           desc:
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+          "What is wrong with you, stupido? Chceta nic nie robić a umić? W cholere z wami !!!! Nie ma tak, BURAKI wy! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ab ipsa, voluptatum neque quo nulla repellat. Laboriosam eos tenetur nam eligendi, optio iure, quisquam provident autem alias quam dolorem delectus.Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ab ipsa, voluptatum neque quo nulla repellat. Laboriosam eos tenetur nam eligendi, optio iure, quisquam provident autem alias quam dolorem delectus.",
           img: <img src='media/small-girl.jpg' alt='gra słowna'/>,
         },
         {
           id: "3",
           icon: "",
-          title: "TITLE 3",
+          title: "Rezultaty",
           desc:
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "What is wrong with you, stupido? Chceta nic nie robić a umić? W cholere z wami !!!! Nie ma tak,  BURAKI wy! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ab ipsa, voluptatum neque quo nulla repellat. Laboriosam eos tenetur nam eligendi, optio iure, quisquam provident autem alias quam dolorem delectus.Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ab ipsa, voluptatum neque quo nulla repellat. Laboriosam eos tenetur nam eligendi, optio iure, quisquam provident autem alias quam dolorem delectus.",
           img: <img src='media/books-head.jpg' alt='gra słowna'/>,
         },
       ];
@@ -86,7 +86,7 @@ const Method = () => {
             
 
             <div className='sentence'> 
-                  <h4> Jeden język ustawia Cię w korytarzu życia. <br/> Dwa języki otwierają każde drzwi po drodze. 
+                  <h4> Jeden język ustawia Cię w korytarzu życia. <br/> Dwa języki otwierają każde drzwi po drodze.  
             </h4>
             
             <h5>– Frank Smith, psycholingwista </h5>  
