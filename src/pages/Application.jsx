@@ -1,6 +1,7 @@
 import { Rotate } from 'hamburger-react';
 import React, {useState} from 'react';
 import './application.scss';
+import { FcCollaboration, FcBullish, FcEngineering } from 'react-icons/fc';
 
 
 const Method = () => {
@@ -11,24 +12,24 @@ const Method = () => {
         {
           id: "1",
           // icon: "media/eduremote.png",
-          icon: "",
-          title: "Koncept",
+          icon: <FcEngineering/>,
+          title: "KONCEPT ",
           desc:
-            "METHOD/CONCEPT jest moim narzędziem pracy, które zaprojektowałam w oparciu o doświadczenia z dwóch dziedzin tj. z prowadzonych przeze mnie terapii dla dzieci i młodzieży z trudnościami w nauce oraz własnych doświadczeń związanych z nauką angielskiego. Nie znalazłam odpowiedniego narzędzia. Są oczywiście lepsze i gorsze aplikacje, ale żadna nie spełniała w pełni moich oczekiwań. Diabeł tkwi w szczegółach. Wtedy zrodził się pomysł stworzenia projektu własnego narzędzia do nauki słów obcych i przekazania go do realizacji. KONCEPT polega na użyciu go przeze mnie jako narzędzia podczas lekcji oraz jako aplikacji do samodzielnej nauki dla innych. / What is wrong with you, stupido? ",
+            "METHOD/CONCEPT jest moim narzędziem pracy, które zaprojektowałam w oparciu o doświadczenia z dwóch dziedzin tj. z prowadzonych przeze mnie terapii dla dzieci i młodzieży z trudnościami w nauce oraz własnych doświadczeń związanych z nauką angielskiego. Nie znalazłam odpowiedniego narzędzia. Są oczywiście lepsze i gorsze aplikacje, ale żadna nie spełniała w pełni moich oczekiwań. Diabeł tkwi w szczegółach. Wtedy zrodził się pomysł stworzenia projektu własnego narzędzia do nauki słów obcych i przekazania go do realizacji. KONCEPT polega na użyciu go przeze mnie jako narzędzia podczas lekcji oraz jako aplikacji do samodzielnej nauki dla innych.",
           img: <img src='media/bulb-hand.jpg' alt='bulb-with-cap.jpg'/>,
         },
         {
           id: "2",
-          icon: "",
-          title: "Metodyka",
+          icon: <FcCollaboration />,
+          title: "METODYKA ",
           desc:
           "What is wrong with you, stupido? Chceta nic nie robić a umić? W cholere z wami !!!! Nie ma tak, BURAKI wy! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ab ipsa, voluptatum neque quo nulla repellat. Laboriosam eos tenetur nam eligendi, optio iure, quisquam provident autem alias quam dolorem delectus.Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ab ipsa, voluptatum neque quo nulla repellat. Laboriosam eos tenetur nam eligendi, optio iure, quisquam provident autem alias quam dolorem delectus.",
           img: <img src='media/small-girl.jpg' alt='gra słowna'/>,
         },
         {
           id: "3",
-          icon: "",
-          title: "Rezultaty",
+          icon: <FcBullish/>,
+          title: " REZULTATY ",
           desc:
             "What is wrong with you, stupido? Chceta nic nie robić a umić? W cholere z wami !!!! Nie ma tak,  BURAKI wy! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ab ipsa, voluptatum neque quo nulla repellat. Laboriosam eos tenetur nam eligendi, optio iure, quisquam provident autem alias quam dolorem delectus.Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ab ipsa, voluptatum neque quo nulla repellat. Laboriosam eos tenetur nam eligendi, optio iure, quisquam provident autem alias quam dolorem delectus.",
           img: <img src='media/books-head.jpg' alt='gra słowna'/>,
@@ -63,10 +64,11 @@ const Method = () => {
                             <div className="leftContainer">
                                
                                  <div className="imgContainer">
-                                    <img src={d.icon} alt=''/>
+                                    {/* <img src={d.icon} alt=''/> */}  
+                                    {d.icon}
                                 </div>
-
-                                <h2>{d.title}</h2>
+                                
+                                <h2>{d.title}   </h2>
 
                                 <p>{d.desc}</p>
                             </div>

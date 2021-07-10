@@ -8,11 +8,14 @@
 /* Video from: https://pixabay.com/  */
 
 @import "https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap";
+@import url('https://fonts.googleapis.com/css2?family=Devonshire&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,700&display=swap');
 
 .pricing {
     background: url('photo/greywall.png');
     display: grid;
     grid-template-columns: repeat(3, auto-fit);
+    color: darkslategrey;
     // flex-direction: column;
     // align-items: center;
     // border-bottom: .5px solid gray; 
@@ -22,10 +25,10 @@
         display: flex;
         overflow: hidden;
         align-items: center;
-        justify-content: space-evenly;
+        justify-content: space-between;
 
         .headline {
-            width: 20vw;
+            width: 40vmin;
             height: 60vh;
             background: linear-gradient(180deg, #005050, #004c4c, #004848, #004444, #004040, #003c3c, #003838, #003434, #003030, #002c2c, #002929, #002525);
             background: radial-gradient(circle at 50% 50%, #005050, #004c4c, #004848, #004444, #004040, #003c3c, #003838, #003434, #003030, #002c2c, #002929, #002525);
@@ -67,6 +70,16 @@
         }
 
         .left {
+            h2 {
+                // font-family: 'Cinzel', serif;
+                font-family: 'Montserrat', sans-serif;
+                font-size: 4vh;
+                letter-spacing: 3px;
+                border-bottom: 1px solid gray;
+                padding: 2vh;
+            }
+
+            // text-align: left;
             width: 26vw;
             height: 60vh;
             // margin-top: 5vh;
@@ -74,30 +87,81 @@
             // margin-right: 5vw;
             // margin: 5vh 10vw 0 5vw;
             // border: 1px solid lightgray;
-            box-shadow: rgb(62, 67, 71) 7px 8px 10px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+            box-shadow: rgb(62, 67, 71) 7px 8px 10px 0px inset,
+            rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
             // border-radius: 7px;
             display: flex;
             justify-content: center;
             align-items: center;
             flex-direction: column;
             justify-content: space-evenly;
-            font-family: 'Dancing Script', cursive;
+            // font-family: 'Dancing Script', cursive;
             background: url('photo/linen.png');
+
+            .icon {
+                font-size: 9vmin;
+                margin-top: -5vh;
+                margin-bottom: -2vmin;
+            }
+
+            ul {
+                font-family: 'Montserrat', sans-serif;
+                font-size: .9rem;
+                letter-spacing: 1.5px;
+                margin-top: -5vh;
+                padding-left: 1vmin;
+
+
+                li {
+                    list-style: inside;
+                }
+            }
         }
 
         .right {
+            h2 {
+                font-family: 'Montserrat', sans-serif;
+                font-size: 4vh;
+                letter-spacing: 3px;
+                border-bottom: 1px double gray;
+                padding: 2vh;
+            }
+
             background: url('photo/linen.png');
             // border-radius: 7px;
             width: 26vw;
             height: 60vh;
             margin: auto;
             // margin: 5vh 0 10vw 5vw;
-            box-shadow: rgb(62, 67, 71) 7px 8px 10px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+            box-shadow: rgb(62, 67, 71) 7px 8px 10px 0px inset,
+            rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
             display: flex;
             justify-content: center;
             align-items: center;
             flex-direction: column;
             justify-content: space-evenly;
+            text-align: left;
+
+            .icon {
+                font-size: 9vmin;
+                margin-top: -5vh;
+                margin-bottom: -2vmin;
+
+            }
+
+            ul {
+                font-family: 'Montserrat', sans-serif;
+                font-size: .9rem;
+                letter-spacing: 1.5px;
+                margin-top: -5vh;
+                padding-left: 1vmin;
+
+                // font-family: 'Cinzel', serif;
+                li {
+                    list-style: inside;
+
+                }
+            }
         }
     }
 }

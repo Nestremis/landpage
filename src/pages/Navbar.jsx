@@ -34,7 +34,7 @@ const Navbar = () => {
 
                     <li className='nav-item' >
                          <Link smooth to='#lekcje' onClick={closeMobileMenu} className='nav-links'  >
-                             LEKCJE
+                             NAUKA
                          </Link> 
                     </li>
 

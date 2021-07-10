@@ -34,11 +34,12 @@
 
     h1 {
         font-family: 'Raleway', sans-serif;
-        font-size: 15vmin;
+        font-size: 18vmin;
         font-weight: lighter;
         color: white;
-        border: 2px solid hsl(180, 100%, 8%);
-        border: 2px solid white;
+        // border: 2px solid hsl(180, 100%, 8%);
+        // border: 1.5vh solid hsla(360, 100%, 100%, .3);
+        border: 6px solid hsla(360, 100%, 100%, 1);
         margin-bottom: 1vh;
         // margin-top: 6vh;
         z-index: 5;

@@ -1,6 +1,7 @@
 import React from 'react';
 import './pricing.scss';
 import {HiCurrencyPound} from 'react-icons/hi';
+import {FcOvertime, FcCircuit} from 'react-icons/fc';
 
 const Pricing = () => {
     return (
@@ -9,11 +10,15 @@ const Pricing = () => {
         <div className="container">   
             <div className='left'>  
                 <h2> LEKCJE </h2>
+                <div className="icon">
+                    <FcOvertime />            
+                </div>
+
                 <ul>
-                    <li>Lekcja 60 min. - 60 zł</li> <br/>
-                    <li>Lekcja jednorazowa - 65 zł </li> <br/>
-                    <li>Subskrypcja 1 rok - 99,0 </li> 
-                 </ul>
+                    <li> 60 min./1x/TYDZIEŃ - <span style={{fontFamily: 'Devonshire', fontSize:'1.2rem'}}> 60 zł </span> </li> <br/>
+                    <li> 60 min./2x/TYDZIEŃ -<span style={{fontFamily: 'Devonshire', fontSize:'1.2rem'}}> 55 zł </span> </li> <br/>
+                    <li> 60 min./JEDNORAZ. - <span style={{fontFamily: 'Devonshire', fontSize:'1.2rem'}}> 65 zł </span> </li> 
+                </ul>
             </div>
         
             <div className="headline">
@@ -23,11 +28,14 @@ const Pricing = () => {
                         
             <div className='right'>        
                 <h2> APLIKACJA </h2>
+                <div className="icon">
+                    <FcCircuit />            
+                </div>
 
                 <ul>
-                <li>Subskrypcja ucznia - 0zł</li> <br/>
-                <li>Subskrypcja próbna 2 tyg.- 0zł </li> <br/>
-                <li>Subskrypcja 1 rok - 99,0 </li>
+                    <li> 12 MIESIĘCY - <span style={{fontFamily: 'Devonshire', fontSize:'1.2rem'}}> 99 zł </span> </li> <br/>
+                    <li> PRÓBNA / 2 tyg.- <span style={{fontFamily: 'Devonshire', fontSize:'1.2rem'}}> 0 zł </span> </li> <br/>
+                    <li> Z KOREPETYCJAMI - <span style={{fontFamily: 'Devonshire', fontSize:'1.2rem'}}> 0 zł </span></li> 
                 </ul>
                 
             </div>
