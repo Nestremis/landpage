@@ -6,18 +6,15 @@ import './lessons.scss';
 const Method = () => {
     return (
 
-        <div className='lessons' id='lekcje'>              
-        
-        <div className="container">   
-        
-        <div className='left'>  
+        <div className='lessons' id='lekcje'>    
+            <div className="container">   
+                <div className='left'>  
 
-            <div className="headline">
-                <h4> Nauka </h4>
-            </div>
-                    <p> 
-                   
-                    NAUKA to złożony proces. METODA MA WPŁYW NA SZYBKOŚĆ I STOPIEŃ PRZYSWAJANIA WIEDZY.
+                <div className="headline">
+                    <h4> Nauka nie musi boleć </h4>
+                </div>
+                    <p>                   
+                    NO PAIN NO GAIN. NAUKA to złożony proces. Nauka nie musi boleć. 3xZ. METODA MA WPŁYW NA SZYBKOŚĆ I STOPIEŃ PRZYSWAJANIA WIEDZY.
                     W szkołach mówi się czego się nauczyć. Ale bez wyjasnień <span style={{color:'orange'}}> JAK
                     </span> można to robić. Dzieci i młodzież muszą samemu dojść jakimi metodami to robić. 
                     Nauka słówek - aby wykopać dół można to zrobić dłońmi, łopatą, koparką. Zależnie od tego, jakie narzędzie mamy tak szybko lub wolno to idzie. <br/>
@@ -28,19 +25,27 @@ const Method = () => {
                     <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente, beatae eos praesentium velit assumenda impedit. Sed deserunt rerum fugit culpa facilis, laboriosam quia, consequuntur, sint minus exercitationem ducimus neque accusantium?
                      </p>
                     <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente, beatae eos praesentium velit assumenda impedit.
-                     </p>
-                   
+                    </p>                   
                 </div>
 
                 <div className='right'>        
                     {/* <video src='/media/mechanism.mov' autoPlay loop muted > 
                         <FcCollaboration /> 
                     </video> */}
-                    <video src='/media/mechanism.mov' autoPlay loop muted />   
-
+                    <video src='/media/mechanism.mov' autoPlay loop muted /> 
                 </div>
             </div>
-        </div>
+
+            <div className='gallery'>             
+                    <img src="media/thumb-1.jpg" alt="yup" className='photos' />
+                    <img src="media/thumb-2.jpg" alt="yup" className='photos' />
+                    <img src="media/thumb-3.jpg" alt="yup" className='photos' />
+                    <img src="media/thumb-4.jpg" alt="yup" className='photos' />
+                    <img src="media/thumb-5.jpg" alt="yup" className='photos' />
+                    <img src="media/thumb-6.jpg" alt="yup" className='photos' />
+            </div>
+
+        </div>        
     )
 }
 

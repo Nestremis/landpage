@@ -1,4 +1,4 @@
-import { Rotate } from 'hamburger-react';
+// import { Rotate } from 'hamburger-react';
 import React, {useState} from 'react';
 import './application.scss';
 import { FcCollaboration, FcBullish, FcEngineering } from 'react-icons/fc';
@@ -84,14 +84,12 @@ const Method = () => {
                     </div>      
                 </div>               
             ))}
-            </div>
-            
+            </div>            
 
             <div className='sentence'> 
-                  <h4> Jeden język ustawia Cię w korytarzu życia. <br/> Dwa języki otwierają każde drzwi po drodze.  
-            </h4>
-            
-            <h5>– Frank Smith, psycholingwista </h5>  
+                <h4> Jeden język ustawia Cię w korytarzu życia. <br/> Dwa języki otwierają każde drzwi po drodze.  
+                </h4>            
+                <h5>– Frank Smith, psycholingwista </h5>  
             </div>
 
         </div>
