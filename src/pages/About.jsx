@@ -6,12 +6,14 @@ const About = () => {
     return (
         <div className='about' id='omnie'>
 
-            <div className="headline">
-                <h4> &#160; O mnie </h4>
-            </div>
-
+           
             <div className="container">   
                 <div className='left'>  
+
+                <div className="headline">
+                    <h4> &#160; O mnie </h4>
+                </div>
+                    
                     <div className='picture'/>
                     <div className='icon'>
                         <GiBookshelf/>
