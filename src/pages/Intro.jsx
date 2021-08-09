@@ -1,6 +1,6 @@
 import React from 'react';
 import './intro.scss';
-// import Typewriter from 'react-simple-typewriter';
+import Typewriter from 'react-simple-typewriter';
 import 'react-simple-typewriter/dist/index.css';
 
 const Intro = () => {
@@ -14,22 +14,36 @@ const Intro = () => {
             
             <h1> WELCOME! <br/> {' '} </h1>
             
-            <h2> ZDALNA  NAUKA  ANGIELSKIEGO</h2>
+            {/* // <h2> ZDALNA  NAUKA  ANGIELSKIEGO</h2> */}
                 
-            {/* <h3>
-                   <span style={{ color: 'white', fontSize: '400', fontWeight:'lighter', textAlign: 'center' }}>
+            <h2>
+                   <span style={{ color: 'white', fontSize: '5vmin', fontWeight:'bolder', textAlign: 'center' }}>
                         <Typewriter
                             loop
                             cursor
                             cursorStyle='_'
-                            typeSpeed={50}
+                            typeSpeed={60}
                             deleteSpeed={10}
-                            delaySpeed={3200}
+                            delaySpeed={3400}
                             // words={['zrozum..', '', 'zapamiętaj..','zastosuj..', 'HOORAY!']}
-                            words={['Zakuj. Zdaj. Zapomnij. .....?', 'Zrozum. Zapamiętaj. Zastosuj. 😀']}
+                            // words={['Zakuj. Zdaj. Zapomnij. .....???', 'Zrozum. Zapamiętaj. Zastosuj. 😀']}
+                             words={[
+                                 'ZDALNA NAUKA ANGIELSKIEGO',
+                                 'to właśnie to co robię.',
+                                 'Jestem w tym całkiem dobra.', 
+                                 'Możesz spytać mojej mamy', 
+                                 '😉', 
+                                 'Lubię uczyć języka i się uczyć.', 
+                                 '(Lubię też mango i upały.)', 
+                                 '😊', 
+                                //  'Zasada trzech zet brzmi:', 
+                                //  'Zakuj. Zdaj. Zapomnij.',
+                                //  'Moja zasada brzmi:',
+                                //  'Zrozum. Zapamiętaj. Zastosuj. 😀',  
+                                    ]}
                         />
                     </span> 
-            </h3> */}
+            </h2> 
                 
                 
             {/* <h4> Jeden język ustawia Cię w korytarzu życia. Dwa języki otwierają każde drzwi po drodze. 
