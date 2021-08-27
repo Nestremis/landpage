@@ -1,50 +1,46 @@
 .app {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
-    /* overflow-x: hidden; */
-    
-
-    .sections {
-      width: 100vw;
-      height: calc(100vh - 60px); 
-      position: relative;
-      // scroll-snap-type: y mandatory;
+  height: 100vh;
   
-    
-        > *{
-          width: 100vw;
-          height: calc(100vh - 60px);
-          // scroll-snap-align: start;
-        }
 
+  .sections {
+    position: relative;
+    height: calc(100vh - 60px);
+    top: 60px;
+    width: 100%;
+
+    >* {
+      height: calc(100vh - 60px);
+      width: 100vw;
     }
-  }
 
-  /* width */
+  }
+}
+
+/* width */
 ::-webkit-scrollbar {
   width: 12px;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: whitesmoke; 
+  background: whitesmoke;
 }
- 
+
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: hsl(0, 0%, 15%); 
+  background: hsl(0, 0%, 15%);
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #555; 
+  background: #555;
 }
 
 @media screen and (max-width: 868px) {
   ::-webkit-scrollbar {
-    width: 0;  /* Remove scrollbar space */
-    background: transparent;  /* Optional: just make scrollbar invisible */
-}
+    width: 0;
+    /* Remove scrollbar space */
+    background: transparent;
+    /* Optional: just make scrollbar invisible */
   }
+}

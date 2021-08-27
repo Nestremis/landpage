@@ -4,6 +4,7 @@ import './navbar.scss';
 import { FcIdea } from 'react-icons/fc';
 // import { GiCompass } from 'react-icons/gi';
 import { AiOutlineMenu } from 'react-icons/ai';
+// import UseAnimations from "react-useanimations";
 
 
 
@@ -68,6 +69,7 @@ const Navbar = () => {
                         {/*<Hamburger toggled={isOpen} toggle={setOpen} className='menu-icon' /> */}
                         {/* <i className={click ? 'fas fa-compass': 'far fa-compass' } />  */}
                         {/* <GiCompass/> */}
+                        
                         <AiOutlineMenu/>
                         
                     </div>

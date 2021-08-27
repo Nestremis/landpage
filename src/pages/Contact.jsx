@@ -6,7 +6,7 @@ function Contact() {
     return (
         <div className='contact' id='kontakt'>
             <div className='emaildiv'>        
-              <h1> kontakt </h1> 
+              <h1>  📨  kontakt  </h1> 
               <form>
                 <input type='text' placeholder='email' />
                 <textarea placeholder='wiadomość'> </textarea>
@@ -16,7 +16,7 @@ function Contact() {
             </div>
             <footer> 
                 <h2> i know. </h2>
-                <h6> Copyright &copy; 2021. All rights reserved by <span style={{color: 'limegreen'}}> NES </span>. </h6>
+                <h6> Copyright &copy; 2021. All rights reserved by <span style={{color: 'limegreen'}}> Nestremis </span>. </h6>
             </footer>
         </div>
     )

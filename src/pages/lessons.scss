@@ -1,16 +1,10 @@
 @import "https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap";
+@import '../global.scss';
 
 #detach-button-host {
     display: none !important;
 }
 
-// video {
-//     position: absolute;
-//     object-fit: cover;
-//     width: 100vw;
-//     height: 100vh;
-//     z-index: -999;
-// }
 .lessons {
     height: 160vh !important;
     width: 100vw;
@@ -20,7 +14,13 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    // position: relative;
+    position: relative;
+    // border: 1px solid red;
+
+    @include mobile {
+        flex-direction: column;
+        align-items: center;
+    }
 
     .container {
         height: 85vh;
@@ -28,12 +28,9 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        // position: static;
         overflow: hidden;
         background-color: darkslategrey;
-        
         margin: auto;
-        // position: relative;
         overflow: visible;
 
         .left {
@@ -50,10 +47,7 @@
             justify-content: center;
             margin-left: 3vw;
 
-            // margin-top: 2vh !important;
-            // z-index: 100;
-            // border-right: yellowgreen 1px solid;
-
+       
             .headline {
                 width: 98%;
                 height: 7.5vmin;
@@ -66,23 +60,18 @@
                 margin-left: -7vw;
                 box-shadow: 2px 2px 4px 3px hsl(0, 0%, 0%);
                 overflow: hidden;
-                // overflow: visible;
                 border-radius: 3px;
                 z-index: 100;
                 
                 h4 {
-                    color: yellowgreen;
-                    color: hsl(60, 100%, 93%);
+                    font-family: 'Dancing Script', cursive;
                     color: hsl(39, 100%, 50%);
                     font-size: 38px;
                     text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.7);
                     font-weight: normal;
                     left: 0;
                     margin-left: 4vw;
-                    font-family: 'Dancing Script', cursive;
-                    // color: background-image;
-                    // font-family: 'Cinzel', serif;
-                    // font-family: 'Montserrat', sans-serif;
+                    
                 }
             }
         }
@@ -96,20 +85,13 @@
             object-fit: cover;
             overflow: visible;
             align-items: center;
-            // z-index: 10;
-
-            // overflow: hidden;
-            // padding: 10px;
-            // border-radius: 15px;
-            // background-size: cover;
-            // object-fit: contain;
+            
             video {
                 margin-top: 10vh;
                 z-index: 100;
                 width: 70%;
                 height: 55%;
                 transform: rotate(90deg);
-
                 // justify-content: center;
                 // z-index: -999;
                 // align-items: center;
@@ -136,28 +118,8 @@
             width: 100%;
             // background-size: cover;
             object-fit: cover;
-            // margin: auto;
         }
 
-        // position: absolute;
-        // background-size: cover;
-        // bottom: 0;
-        // display: flex;
-        // flex-direction: column;
-        // align-items: center;
     }
 }
 
-// @import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
-// @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&display=swap');
-/* Video from: https://pixabay.com/  */
-
-// @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
-// @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&display=swap');
-// @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
-// @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
-// @import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Jost&display=swap');
-// @import url('https://fonts.googleapis.com/css2?family=Bellota&display=swap');
-// @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap');
-// @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-// @import 'https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700';

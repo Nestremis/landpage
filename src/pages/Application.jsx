@@ -2,7 +2,7 @@
 import React, {useState} from 'react';
 import './application.scss';
 // import { FcCollaboration, FcBullish, FcEngineering } from 'react-icons/fc';
-import { FaGripfire, FaChalkboardTeacher } from 'react-icons/fa';
+// import { FaGripfire, FaChalkboardTeacher } from 'react-icons/fa';
 import { GiTreeBranch, GiPlantWatering, GiFruitTree } from 'react-icons/gi';
 
 
@@ -17,7 +17,7 @@ const Method = () => {
           icon: <GiTreeBranch/>,
           title: "koncept ",
           desc:
-            "METHOD/CONCEPT jest moim narzędziem pracy, które zaprojektowałam w oparciu o doświadczenia z dwóch dziedzin tj. z prowadzonych przeze mnie terapii dla dzieci i młodzieży z trudnościami w nauce oraz własnych doświadczeń związanych z nauką angielskiego. Nie znalazłam odpowiedniego narzędzia. Są oczywiście lepsze i gorsze aplikacje, ale żadna nie spełniała w pełni moich oczekiwań. Diabeł tkwi w szczegółach. Wtedy zrodził się pomysł stworzenia projektu własnego narzędzia do nauki słów obcych i przekazania go do realizacji. KONCEPT polega na użyciu go przeze mnie jako narzędzia podczas lekcji oraz jako aplikacji do samodzielnej nauki dla innych. Także tego... najlepszy itp. Kup se to. I niech nie szuka innych bo to je dobre. Lepsiejszego nie znajdzie po prostu nikt. ",
+              "METHOD/CONCEPT jest moim narzędziem pracy, które zaprojektowałam w oparciu o doświadczenia z dwóch dziedzin tj. z prowadzonych przeze mnie terapii dla dzieci i młodzieży z trudnościami w nauce oraz własnych doświadczeń związanych z nauką angielskiego. Nie znalazłam odpowiedniego narzędzia. Są oczywiście lepsze i gorsze aplikacje, ale żadna nie spełniała w pełni moich oczekiwań. Diabeł tkwi w szczegółach. Wtedy zrodził się pomysł stworzenia projektu własnego narzędzia do nauki słów obcych i przekazania go do realizacji. KONCEPT polega na użyciu go przeze mnie jako narzędzia podczas lekcji oraz jako aplikacji do samodzielnej nauki dla innych.     Najlepszy itp. Kup se to. I niech nie szuka innych bo to je dobre. Lepsiejszego nie znajdzie po prostu nikt!!!!",
           img: <img src='media/bulb-hand.jpg' alt='bulb-with-cap.jpg'/>,
         },
         {
@@ -65,14 +65,14 @@ const Method = () => {
                         <div className="left-slide-part">
                             <div className="leftContainer">
                             
-                                 <h2> &nbsp; {d.title}   </h2>                                 
-                                 
-                                 <p>{d.desc}</p>
+                                <h2> 
+                                  &nbsp; <span style={{color:'yellowgreen', verticalAlign:'middle'}}> {d.icon} </span>
+                                  &nbsp; {d.title} 
+                                  {/* <div className="imgContainer"> {d.icon} </div>*/}
+                                </h2>   
 
-                                 <div className="imgContainer">
-                                    {/* <img src={d.icon} alt=''/> */}  
-                                    {d.icon}
-                                 </div>
+                                <p> {d.desc} </p>
+                                 
                             </div>
                         </div>  
                        {/*  <img src={d.icon} alt="" />

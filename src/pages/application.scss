@@ -5,10 +5,8 @@
     background: url('photo/greywall.png');
     display: flex;
     align-items: center;
-    // justify-content: center;
-    // width: 300vw;
-    position: relative;
-
+    position: relative; 
+    
     .arrow {
         height: 8vh;
         position: absolute;
@@ -56,7 +54,7 @@
 
                 .left-slide-part {
                     overflow: hidden;
-                    height: 98%;
+                    height: 96%;
                     width: 96%;
                     flex: 8;
                     display: flex;
@@ -64,33 +62,43 @@
                     justify-content: center;
                     line-height: 1.7;
                     overflow: hidden;
-                    text-align: justify;
-                    vertical-align: middle;
+                    // text-align: justify;
+                    // vertical-align: middle;
+                    // margin-bottom: 2vmin;
 
+                    
                     h2 {
-                        // background: hsl(84, 100%, 59%);
-                        // background: linear-gradient(360deg, #32cd32, #3ad231, #42d730, #4bdc2f, #55e12e, #60e62e, #6beb2e, #77ef2d, #83f32d, #90f72d, #9dfb2e, #abff2e);
                         width: 96%;
-                        // font-size: 36px;
-                        font: 40px 'Dancing Script', cursive;
-                        // font: 40px 'Raleway';
-                        
+                        font: 40px 'Dancing Script', cursive;                        
                         background: linear-gradient(180deg, hsl(180, 100%, 16%), hsl(180, 100%, 15%), hsl(180, 100%, 14%), hsl(180, 100%, 13%), hsl(180, 100%, 13%), hsl(180, 100%, 12%), hsl(180, 100%, 11%), hsl(180, 100%, 10%), hsl(180, 100%, 9%), hsl(180, 100%, 9%), hsl(180, 100%, 8%), hsl(180, 100%, 7%));
-                        // background: yellowgreen;
                         box-shadow: 2px 2px 4px 3px hsl(0, 0%, 0%);
                         text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.7);
-                        letter-spacing: 2px;
-                        margin: 6px;
-                        margin-bottom: 2vh;
-                        margin-top: 2vh;
-                        // border-right: 2vw solid #006060;
-                        // border-right: 2vw solid #006060;
-                        // border-right: 1px solid hsla(180, 100%, 8%, 0.7);
-                        border-radius: 2px;
+                        letter-spacing: 3px;
+                        margin: 2vh;
                         color: orange;
-                        // color: rgb(190, 255, 60);
-                        // text-shadow: 2px 2px 1px darkslategray;
+                        justify-content: center;
+                        align-items: center;   
+                        vertical-align: middle;
+                       
+
+                        // .imgContainer {
+                        //     // width: 96%;
+                        //     // height: 96%;
+                        //     display: inline-flex;
+                        //     // background-color: #005050;
+                        //     margin: auto;
+                        //     align-items: center;
+                        //     display: flex-end;
+                        //     // font-size: 2.5rem;
+                        //     // border-radius: 50%;
+                        //     color: yellowgreen;
+                        //     box-shadow: 2px 2px 4px 3px hsl(0, 0%, 0%);
+                        //     margin-right: 0;
+                        // }
+    
                     }
+
+                    
 
 
 
@@ -103,32 +111,6 @@
                         flex-direction: column;
                         align-items: center;
                         // justify-content: space-evenly;
-
-                        .imgContainer {
-                            // margin-right: -100%;
-                            width: 3.3rem;
-                            height: 3.3rem;
-                            display: flex;
-                            background-color: #005050;
-                            margin: auto;
-                            // opacity: .5;
-                            // background-size: contain;
-                            // border-radius: 50%;
-                            align-items: center;
-                            justify-content: center;
-                            font-size: 2.5rem;
-                            border-radius: 50%;
-                            color: orange;
-                            color: yellowgreen;
-                            // box-shadow: 2px 2px 4px 3px hsl(0, 0%, 0%);
-
-
-                            // margin-top: -2vh;
-                            // img {
-                            //     max-width: 20vw;
-                            //     // opacity: 1;
-                            // }
-                        }
                     }
                 }
 

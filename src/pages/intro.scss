@@ -13,24 +13,28 @@
 //     height: 100vh;
 //     z-index: -999;
 // }
-
+@import '../global.scss';
 
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@500&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Cinzel+Decorative&display=swap');
+
 
 .intro {
     background: url('photo/introPic.jpg') center center/cover no-repeat;
     background-size: cover;
     height: 100vh;
     width: 100vw;
+    top: 60px;
     object-fit: contain;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    // position: relative; ????
+    // border: red 4px solid;
     // font-family: 'Raleway', sans-serif;
-
+    // border: 1px solid red;
 
     h1 {
         font-family: 'Raleway', sans-serif;
@@ -45,7 +49,6 @@
 
     h2 {
         z-index: 1;
-        color: hsl(0, 0%, 0%);
         color: hsl(39, 100%, 46%);
         font-family: 'Raleway', sans-serif;
         margin-top: 2vh;

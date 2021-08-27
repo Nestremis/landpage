@@ -1,3 +1,4 @@
+import React from 'react';
 import './app.scss';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Intro from './pages/Intro';
@@ -20,7 +21,6 @@ function App() {
   return (
     <Router>  
       <div className='app'>
-
         <Navbar>
           <Switch>
               <Route exact path='/intro' component={Intro} />
@@ -28,7 +28,7 @@ function App() {
               <Route exact path='/aplikacja' component={Application} />
               <Route exact path='/omnie' component={About} />
               <Route exact path='/cennik' component={Pricing} /> 
-              <Route exact path='/kontakt' component={Contact}/>  
+              <Route exact path='/kontakt' component={Contact} />  
           </Switch> 
         </Navbar>
 
@@ -47,3 +47,5 @@ function App() {
 }
 
 export default App;
+
+

@@ -1,3 +1,11 @@
 $font: 'Open Sans', sans-serif;
 
 $primary-color: #004545;
+
+$width: 768px;
+
+@mixin mobile {
+    @media (max-width: #{$width}) {
+        @content
+    }
+}
