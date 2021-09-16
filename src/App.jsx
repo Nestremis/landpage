@@ -24,9 +24,9 @@ function App() {
         <Navbar>
           <Switch>
               <Route exact path='/intro' component={Intro} />
+              <Route exact path='/omnie' component={About} />
               <Route exact path='/lekcje' component={Lessons} />
               <Route exact path='/aplikacja' component={Application} />
-              <Route exact path='/omnie' component={About} />
               <Route exact path='/cennik' component={Pricing} /> 
               <Route exact path='/kontakt' component={Contact} />  
           </Switch> 
@@ -34,9 +34,9 @@ function App() {
 
         <div className='sections'>
             <Intro/>
+            <About/>
             <Lessons/>
             <Application/>
-            <About/>
             <Pricing/>
             <Contact/>      
         </div> 

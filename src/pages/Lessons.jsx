@@ -11,7 +11,7 @@ const Method = () => {
                 <div className='left'>  
 
                 <div className="headline">
-                    <h4> Nauka nie musi boleć </h4>
+                    <h4> Lekcje </h4>
                 </div>
                     <p>                   
                     NO PAIN NO GAIN. NAUKA to złożony proces. Nauka nie musi boleć. 3xZ. METODA MA WPŁYW NA SZYBKOŚĆ I STOPIEŃ PRZYSWAJANIA WIEDZY.

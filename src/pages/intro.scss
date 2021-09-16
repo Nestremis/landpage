@@ -14,9 +14,7 @@
 //     z-index: -999;
 // }
 @import '../global.scss';
-
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@500&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Cinzel+Decorative&display=swap');
 
 
@@ -31,15 +29,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    // position: relative; ????
-    // border: red 4px solid;
-    // font-family: 'Raleway', sans-serif;
-    // border: 1px solid red;
+    overflow: hidden;
 
     h1 {
         font-family: 'Raleway', sans-serif;
         font-size: 18vmin;
-        // font-weight: lighter;
         color: white;
         border: 3px solid orange;
         margin-bottom: 1vh;
@@ -60,31 +54,20 @@
         font-weight: lighter;
     }
 
-    h3 {
-        font-size: 6vmin;
-        margin-bottom: 5vh;
-        margin-top: 5vh;
-        padding: 2vh;
-        z-index: 1;
-    }
-
-    // h4 {
-    //     font-family: 'Dancing Script', cursive;
-    //     font-size: 1.1rem;
-    //     // font-weight: lighter;
-    //     // margin-bottom: 2vh;
+    // h3 {
+    //     font-size: 6vmin;
+    //     margin-bottom: 5vh;
+    //     margin-top: 5vh;
     //     padding: 2vh;
+    //     z-index: 1;
+    // }
+
+    // {
+    // font-family: 'Raleway', sans-serif;
+    //     font-family: 'Dancing Script', cursive;
     //     font-family: 'Cormorant Garamond', serif;
     //     // font-family: 'Great Vibes', cursive;
     //     font-family: 'Cinzel', serif;
-    //     // color: rgb(26, 24, 23);
-    // }
-
-    // h5 {
-    //     // bottom: 5vmin;
-    //     font-size: .9em;
-    //     letter-spacing: 2px;
-    //     font-weight: 500;
     //     font-family: 'Montserrat', sans-serif;
     // }
 }

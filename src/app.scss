@@ -1,16 +1,21 @@
+@import './global.scss';
+
 .app {
-  height: 100vh;
-  
+  height: 100vh; 
 
   .sections {
     position: relative;
-    height: calc(100vh - 60px);
     top: 60px;
+    height: calc(100vh - 60px);
     width: 100%;
 
     >* {
       height: calc(100vh - 60px);
       width: 100vw;
+    }
+
+    @include mobile {
+      top: 0;
     }
 
   }
@@ -36,11 +41,14 @@
   background: #555;
 }
 
-@media screen and (max-width: 868px) {
+@include mobile {
   ::-webkit-scrollbar {
     width: 0;
-    /* Remove scrollbar space */
     background: transparent;
-    /* Optional: just make scrollbar invisible */
   }
+// @media screen and (max-width: 850px) {
+//   ::-webkit-scrollbar {
+//     width: 0;
+//     background: transparent;
+//   }
 }

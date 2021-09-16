@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import { HashLink as Link } from 'react-router-hash-link';
+import { NavHashLink as Link } from 'react-router-hash-link';
 import './navbar.scss';
 import { FcIdea } from 'react-icons/fc';
 // import { GiCompass } from 'react-icons/gi';
@@ -28,37 +28,55 @@ const Navbar = () => {
                 <Link smooth to='#intro' className='bulb' onClick={closeMobileMenu}>
                     <FcIdea />
                 </Link>
-                    
-                <i >  </i>                    
+                                      
                 
                 <ul className={click ? 'nav-menu active' : 'nav-menu'} >
 
+                    <li className='nav-item'> 
+                        <Link smooth to='#omnie' 
+                        onClick={closeMobileMenu} 
+                        className='nav-links' 
+                        activeClassName="selected"
+                        activeStyle={{ color: 'red' }}
+                        >
+                            O MNIE
+                        </Link> 
+                   </li>
+
                     <li className='nav-item' >
-                         <Link smooth to='#lekcje' onClick={closeMobileMenu} className='nav-links'  >
-                             NAUKA
+                         <Link smooth to='#lekcje' 
+                            onClick={closeMobileMenu} 
+                            className='nav-links' 
+                            activeClassName="selected"
+                            activeStyle={{ color: 'red' }} 
+                            >
+                             LEKCJE
                          </Link> 
                     </li>
 
                     <li className='nav-item' >
-                         <Link smooth to='#aplikacja' onClick={closeMobileMenu} className='nav-links'  >
+                         <Link smooth to='#aplikacja' onClick={closeMobileMenu} className='nav-links' activeClassName="selected"
+                         activeStyle={{ color: 'red' }}  
+                         >
                              APLIKACJA
                          </Link> 
                     </li>
-
-                    <li className='nav-item'> 
-                        <Link smooth to='#omnie' onClick={closeMobileMenu} className='nav-links'>
-                            O MNIE
-                        </Link> 
-                    </li>
                     
                     <li className='nav-item' > 
-                        <Link smooth to='#cennik' onClick={closeMobileMenu} className='nav-links'>
+                        <Link smooth to='#cennik' onClick={closeMobileMenu} className='nav-links' activeClassName="selected"
+                        activeStyle={{ color: 'red' }} 
+                        >
                             CENNIK
                         </Link> 
                     </li>
 
                     <li className='nav-item'> 
-                        <Link smooth to='#kontakt' onClick={closeMobileMenu} className='nav-links'>
+                        <Link smooth to='#kontakt' 
+                        onClick={closeMobileMenu} 
+                        className='nav-links' 
+                        activeClassName="selected"
+                        activeStyle={{ color: 'red' }} 
+                        >
                             KONTAKT
                         </Link> 
                     </li>

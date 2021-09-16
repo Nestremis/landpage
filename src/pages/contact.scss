@@ -3,7 +3,7 @@
 
 
 .contact {
-    display:flex; 
+    display: flex;
     width: 100vw;
     height: 100vh;
     background: url('photo/notes.jpg') center center/cover no-repeat;
@@ -14,33 +14,40 @@
     justify-content: space-around;
     // border: 1px solid red;
 
-
     .emaildiv {
-        display:flex; 
+        display: flex;
         flex: 1;
         flex-direction: column;
         justify-content: center;
         margin: 5vh 15vw 5vh 70vw;
         border-radius: 10px;
         height: 65vh;
-        width: 32vw;
+        width: 33vw;
         min-width: 200px;
         background: linear-gradient(330deg, #002525, #002929, #002c2c, #003030, #003434, #003838, #003c3c, #004040, #004444, #004848, #004c4c, #005050);
-        box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+        box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 
+        @include mobile {
+            margin: 20px auto;
+            width: 50vw;
+            min-width: 280px;
+            background: linear-gradient(180deg, #004040, #003c3c, #003838, #003434, #003030, #002c2c, #002727, #002323, #001f1f, #001b1b, #001717, #001313);
+        }
 
-        h1{
-            font-size: 30px;
-            font-family: 'Dancing Script', cursive;           
+        h1 {
+            font-size: 1rem;
+            font-family: 'Dancing Script', cursive;
             color: rgb(233, 151, 0);
             font-size: 3vw;
-            margin-bottom:2vh;
-            margin-left: 3vw;
+            margin: 2vh 5vh;
             padding: 5px;
-            text-shadow: 4px 4px 2px rgba(0,0,0,0.7);
+            text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.7);
             font-weight: normal;
 
-        }      
+            @include mobile {
+                font-size: 30px;
+            }
+        }
 
         form {
             display: flex;
@@ -48,41 +55,51 @@
             justify-content: center;
             align-items: center;
             color: #ffffdd;
-            
-            
-            input{
+
+
+            input {
                 font-size: 17px;
-                border-radius:5px;
+                border-radius: 5px;
                 margin-bottom: 10px;
-                width: 25vw;
+                width: 30vw;
+                min-width: 150px;
                 min-height: 25px;
                 border-style: inset;
                 background: url('photo/linen.png');
+
+                @include mobile {
+                    width: 80%;
+                }
             }
-            input:focus{
+
+            input:focus {
                 outline: none;
                 background: rgb(135, 194, 135);
                 border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
             }
-            
-            textarea{
-                font-size: 17px;
-                border-radius:5px;
-                width: 25vw;
-                min-width: 250px;
+
+            textarea {
+                font-size: 2vmin;
+                border-radius: 5px;
+                width: 30vw;
+                min-width: 150px;
                 height: 35vh;
-                min-height: 200px;
                 margin-bottom: 10px;
-                resize: none;
                 background: url('photo/linen.png');
+                resize: none;
+
+                @include mobile {
+                    width: 80%;
+                }
             }
-            textarea:focus{
+
+            textarea:focus {
                 outline: none;
                 background: rgb(135, 194, 135);
             }
-            
 
-         button {
+
+            button {
                 border-radius: 5px;
                 background: rgba(50, 205, 50, 0.801);
                 color: black;
@@ -92,22 +109,24 @@
                 width: 15vw;
                 font-size: 12px;
                 font-weight: 700;
-                letter-spacing: 3px;    
+                letter-spacing: 3px;
                 cursor: pointer;
                 text-align: center;
                 min-height: 30px;
             }
+
             button:hover {
                 background: limegreen;
-                }
+            }
+
             button:active {
-                color: orange;             
+                color: orange;
             }
         }
     }
-    
+
     footer {
-        margin-top:auto; 
+        margin-top: auto;
         width: 100vw;
         height: 14vh;
         bottom: 0;
@@ -125,8 +144,16 @@
             margin-bottom: 5vh;
         }
 
-        h6 {
-            bottom: 2vh;
+        p {
+            bottom: 1vh;
+            font-size: clamp(8px, 10px, 12px);
         }
     }
 }
+
+// @media screen and (min-width: 500px) {
+//     .emaildiv {
+//         display: grid;
+//         place-items: center;
+//     }
+// }

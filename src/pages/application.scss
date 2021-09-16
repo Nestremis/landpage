@@ -1,12 +1,15 @@
 @import "https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap";
+@import '../global.scss';
+
 
 .application {
     height: 121vh !important;
     background: url('photo/greywall.png');
     display: flex;
     align-items: center;
-    position: relative; 
-    
+    // justify-content: center;
+    position: relative;
+
     .arrow {
         height: 8vh;
         position: absolute;
@@ -14,18 +17,21 @@
         margin-bottom: 30vh;
         z-index: 100;
 
+        @include mobile {
+            height: 5vh;
+        }
+
         &.left {
-            left: 3vw;
+            left: 2vw;
             transform: rotateY(180deg);
         }
 
         &.right {
-            right: 3vw;
+            right: calc(2vw + 5px);
         }
     }
 
     .slider {
-        left: -2vw;
         height: 100vh;
         display: flex;
         position: absolute;
@@ -43,7 +49,6 @@
             .slide {
                 width: 70vw;
                 height: 100%;
-                // background-color: rgba(52, 255, 52, 0.637);
                 background-image: url('photo/linen.png');
                 border-radius: 12px;
                 display: flex;
@@ -51,6 +56,10 @@
                 justify-content: center;
                 box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
                 color: hsl(180, 100%, 12%);
+
+                @include mobile {
+                    display: block;
+                }
 
                 .left-slide-part {
                     overflow: hidden;
@@ -62,14 +71,15 @@
                     justify-content: center;
                     line-height: 1.7;
                     overflow: hidden;
-                    // text-align: justify;
-                    // vertical-align: middle;
-                    // margin-bottom: 2vmin;
 
-                    
+                    @include mobile {
+                        padding: 1vw;
+                        height: fit-content;
+                    }
+
                     h2 {
                         width: 96%;
-                        font: 40px 'Dancing Script', cursive;                        
+                        font: 40px 'Dancing Script', cursive;
                         background: linear-gradient(180deg, hsl(180, 100%, 16%), hsl(180, 100%, 15%), hsl(180, 100%, 14%), hsl(180, 100%, 13%), hsl(180, 100%, 13%), hsl(180, 100%, 12%), hsl(180, 100%, 11%), hsl(180, 100%, 10%), hsl(180, 100%, 9%), hsl(180, 100%, 9%), hsl(180, 100%, 8%), hsl(180, 100%, 7%));
                         box-shadow: 2px 2px 4px 3px hsl(0, 0%, 0%);
                         text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.7);
@@ -77,119 +87,100 @@
                         margin: 2vh;
                         color: orange;
                         justify-content: center;
-                        align-items: center;   
+                        align-items: center;
                         vertical-align: middle;
-                       
 
-                        // .imgContainer {
-                        //     // width: 96%;
-                        //     // height: 96%;
-                        //     display: inline-flex;
-                        //     // background-color: #005050;
-                        //     margin: auto;
-                        //     align-items: center;
-                        //     display: flex-end;
-                        //     // font-size: 2.5rem;
-                        //     // border-radius: 50%;
-                        //     color: yellowgreen;
-                        //     box-shadow: 2px 2px 4px 3px hsl(0, 0%, 0%);
-                        //     margin-right: 0;
-                        // }
-    
+                        @include mobile {
+                            font-size: clamp(3vw + 10px, 3vw, 4vw);
+                        }
                     }
 
-                    
-
-
-
                     .leftContainer {
-                        // color: hsl(180, 100%, 8%);
+                        font-size: clamp(.4vw + 8px, .69vw + 8px, 18px);
                         margin: 2vw;
                         width: 96%;
                         height: 100%;
                         display: flex;
                         flex-direction: column;
                         align-items: center;
-                        // justify-content: space-evenly;
+                        text-align: justify;
+                        // border: 1px solid red;
+
+                        @include mobile {
+                            // height: fit-content;
+                            align-self: flex-start;
+                            // margin-bottom: 10px;
+                        }
                     }
                 }
 
                 .right-slide-part {
-                    height: 100%;
-                    width: 100%;
-                    margin-right: 1vw;
-                    flex: 6;
-                    overflow: hidden;
-                    // object-fit: cover;
-                    // background-size: cover;
-                    // background-size: contain;
-                    transform: rotate(2deg);
-                    max-width: 90%;
-                    max-height: 90%;
                     display: flex;
                     justify-content: center;
                     align-items: center;
-                    // border: 1px solid lightgray;
+                    transform: rotate(2deg);
+                    max-width: 90%;
+                    max-height: 90%;
                     border-radius: 5px;
+                    margin-right: 2vw;
+                    flex: 5;
+                    overflow: hidden;
+                    
+                    @include mobile {
+                        max-height: 90px;
+                        max-width: 90px;
+                        margin: auto;
+                        display: flex;
+                        align-items: center;
+                    }
                 }
             }
         }
     }
+}
 
+.sentence {
+    position: absolute;
+    background: hsl(32, 100%, 45%);
+    background-size: cover;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 30vh !important;
+    width: 100vw;
 
+    @include mobile {
+        height: 20vh;
+    }
 
-    // Zdjęcie autorstwa Belle Co z Pexels
+    h4 {
+        font-size: 1.5rem;
+        font-weight: lighter;
+        margin-top: 5vh;
+        padding: 2vh;
+        font-family: 'Cinzel', serif;
+        color: linen;
+        letter-spacing: 2px;
+        border-left: 6px solid darkslategray;
+        border-bottom: 1px solid darkslategray;
+        text-align: center;
+        overflow: hidden;
 
-    .sentence {
-        position: absolute;
-        background: hsl(32, 100%, 45%);
-        background-size: cover;
-        bottom: 0;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        height: 30vh !important;
-        width: 100vw;
-
-        h4 {
-            font-size: 1.5rem;
-            font-weight: lighter;
-            margin-top: 5vh;
-            padding: 2vh;
-            font-family: 'Cinzel', serif;
-            color: linen;
-            letter-spacing: 2px;
-            border-left: 6px solid darkslategray;
-            border-bottom: 1px solid darkslategray;
-        }
-
-        h5 {
-            font-size: .8em;
-            letter-spacing: 2px;
-            font-weight: 400;
-            font-family: 'Montserrat', sans-serif;
-            padding: 10px;
+        @include mobile {
+            font-size: 1rem;
         }
     }
 
+    h5 {
+        font-size: .8rem;
+        letter-spacing: 2px;
+        font-weight: 400;
+        font-family: 'Montserrat', sans-serif;
+        padding: 10px;
+
+        @include mobile {
+            font-size: .5rem;
+        }
+    }
 }
-
-
-// .headline {
-//     width: 20vw;
-//     height: 4vw;
-//     background: linear-gradient(180deg, #005050, #004c4c, #004848, #004444, #004040, #003c3c, #003838, #003434, #003030, #002c2c, #002929, #002525);
-//     margin-top: 5vh;
-//     box-shadow: 2px 2px 4px 3px black;
-//     margin-left: -65vw;
-
-//     h4 {
-//         width: 64vw;
-//         font-family: 'Dancing Script', cursive;
-//         color: #ffffdd;
-//         font-size: 3vw;
-//         text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.7);
-//         display: block;
-//         font-weight: normal;
-//     }
-// }
