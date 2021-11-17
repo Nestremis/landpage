@@ -36,8 +36,8 @@ const Method = () => {
             </div>
 
             <div className='gallery'>             
-                    <img src='thumb-1.jpg' alt="boy thumb up" className='photos' />
-                    <img src="media/thumb-2.jpg" alt="yup" className='photos' />
+                    <img src='media/thumb-1.jpg' alt="boy thumb up" className='photos' />
+                    <img src="media/thumb-2.jpg" alt="happy face" className='photos' />
                     <img src="media/thumb-3.jpg" alt="yup" className='photos' />
                     <img src="media/thumb-4.jpg" alt="yup" className='photos' />
                     <img src="media/thumb-5.jpg" alt="yup" className='photos' />
