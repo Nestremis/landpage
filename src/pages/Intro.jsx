@@ -29,12 +29,12 @@ const Intro = () => {
                             // words={['Zakuj. Zdaj. Zapomnij. .....???', 'Zrozum. Zapamiętaj. Zastosuj. 😀']}
                              words={[
                                  'ZDALNA NAUKA ANGIELSKIEGO',
-                                 'Jestem Marta i jestem w tym dobra.',
+                                 'Jestem Marta i jestem dobra.',
                                  'Można spytać mojej mamy.', 
                                  'Lubię uczyć angielskiego i się uczyć.', 
                                  '(Lubię też mango i upały.)', 
                                  '😊', 
-                                 'Nie lubię zasady trzech Z, czyli:', 
+                                 'Nie lubię zasady trzech Z:', 
                                  'Zakuj. Zdaj. Zapomnij.😣',
                                  'W mojej wersji brzmi ona:',
                                  'Zrozum. Zapamiętaj. Zastosuj. 😀',  
