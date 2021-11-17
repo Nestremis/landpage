@@ -25,7 +25,7 @@ const Method = () => {
           icon: <GiPlantWatering />,
           title: "metodyka ",
           desc:
-          "What is wrong with you, stupido? Chceta nic nie robić a umić? W cholere z wami! Nie ma tak, BURAKI wy! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ab ipsa, voluptatum neque quo nulla repellat. Laboriosam eos tenetur nam eligendi, optio iure, quisquam provident autem alias quam dolorem delectus.Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ab ipsa, voluptatum neque quo nulla repellat. Laboriosam eos tenetur nam eligendi, optio iure, quisquam provident autem alias quam dolorem delectus.",
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ab ipsa, voluptatum neque quo nulla repellat. Laboriosam eos tenetur nam eligendi, optio iure, quisquam provident autem alias quam dolorem delectus.Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ab ipsa, voluptatum neque quo nulla repellat. Laboriosam eos tenetur nam eligendi, optio iure, quisquam provident autem alias quam dolorem delectus.",
           img: <img src='media/small-girl.jpg' alt='gra słowna'/>,
         },
         {
@@ -33,7 +33,7 @@ const Method = () => {
           icon: <GiFruitTree />,
           title: "rezultaty ",
           desc:
-            "What is wrong with you, stupido? Chceta nic nie robić a umić? W cholere z wami !!!! Nie ma tak,  BURAKI wy! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ab ipsa, voluptatum neque quo nulla repellat. Laboriosam eos tenetur nam eligendi, optio iure, quisquam provident autem alias quam dolorem delectus.Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ab ipsa, voluptatum neque quo nulla repellat. Laboriosam eos tenetur nam eligendi, optio iure, quisquam provident autem alias quam dolorem delectus.",
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ab ipsa, voluptatum neque quo nulla repellat. Laboriosam eos tenetur nam eligendi, optio iure, quisquam provident autem alias quam dolorem delectus.Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ab ipsa, voluptatum neque quo nulla repellat. Laboriosam eos tenetur nam eligendi, optio iure, quisquam provident autem alias quam dolorem delectus.",
           img: <img src='media/books-head.jpg' alt='gra słowna'/>,
         },
       ];

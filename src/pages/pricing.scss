@@ -138,6 +138,11 @@
                 li {
                     list-style: inside;
                 }
+                li::marker{
+                    color: red;
+                    // font-size: 18px;
+                    // content: '';
+                }
             }
         }
     }

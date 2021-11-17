@@ -138,6 +138,7 @@
         margin: auto;
         justify-content: center;
         align-items: center;
+        width: 100vw;
 
         // width: 100vw;  
         .photos {
@@ -146,7 +147,7 @@
             align-items: center;
             height: 100%;
             width: 100%;
-            // background-size: cover;
+            background-size: cover;
             object-fit: cover;
         }
 
