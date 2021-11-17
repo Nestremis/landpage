@@ -31,12 +31,12 @@ const Method = () => {
                     {/* <video src='/media/mechanism.mov' autoPlay loop muted > 
                         <FcCollaboration /> 
                     </video> */}
-                    <video src='/media/mechanism.mov' autoPlay loop muted /> 
+                    <video src='/public/media/mechanism.mov' autoPlay loop muted /> 
                 </div>
             </div>
 
             <div className='gallery'>             
-                    <img src="media/thumb-1.jpg" alt="yup" className='photos' />
+                    <img src='thumb-1.jpg' alt="boy thumb up" className='photos' />
                     <img src="media/thumb-2.jpg" alt="yup" className='photos' />
                     <img src="media/thumb-3.jpg" alt="yup" className='photos' />
                     <img src="media/thumb-4.jpg" alt="yup" className='photos' />
