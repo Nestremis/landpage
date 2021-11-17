@@ -17,7 +17,7 @@ const Method = () => {
           icon: <GiTreeBranch/>,
           title: "koncept ",
           desc:
-              "METHOD/CONCEPT jest moim narzędziem pracy, które zaprojektowałam w oparciu o doświadczenia z dwóch dziedzin tj. z prowadzonych przeze mnie terapii dla dzieci i młodzieży z trudnościami w nauce oraz własnych doświadczeń związanych z nauką angielskiego. Nie znalazłam odpowiedniego narzędzia. Są oczywiście lepsze i gorsze aplikacje, ale żadna nie spełniała w pełni moich oczekiwań. Diabeł tkwi w szczegółach. Wtedy zrodził się pomysł stworzenia projektu własnego narzędzia do nauki słów obcych i przekazania go do realizacji. KONCEPT polega na użyciu go przeze mnie jako narzędzia podczas lekcji oraz jako aplikacji do samodzielnej nauki dla innych. Najlepszy itp. Kup se. I niech nie szuka innych bo to je dobre. Lepsiejszego nie znajdzie po prostu.. nikt...",
+              "METHOD/CONCEPT jest moim narzędziem pracy, które zaprojektowałam w oparciu o doświadczenia z dwóch dziedzin tj. z prowadzonych przeze mnie terapii dla dzieci i młodzieży z trudnościami w nauce oraz własnych doświadczeń związanych z nauką angielskiego. Nie znalazłam odpowiedniego narzędzia. Są oczywiście lepsze i gorsze aplikacje, ale żadna nie spełniała w pełni moich oczekiwań. Diabeł tkwi w szczegółach. Wtedy zrodził się pomysł stworzenia projektu własnego narzędzia do nauki słów obcych i przekazania go do realizacji. KONCEPT polega na użyciu go przeze mnie jako narzędzia podczas lekcji oraz jako aplikacji do samodzielnej nauki dla innych. ",
           img: <img src='media/bulb-hand.jpg' alt='bulb-with-cap.jpg'/>,
         },
         {
