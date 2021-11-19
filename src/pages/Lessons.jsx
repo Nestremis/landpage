@@ -38,10 +38,10 @@ const Method = () => {
             <div className='gallery'>             
                     <img src="media/thumb-1.jpg" alt="boy thumb up" className="photos" />
                     <img src="media/thumb-2.jpg" alt="happy face" className='photos' />
-                    <img src="media/thumb-3.jpg" alt="yup" className='photos' />
-                    <img src="media/thumb-4.jpg" alt="yup" className='photos' />
-                    <img src="media/thumb-5.jpg" alt="yup" className='photos' />
-                    <img src="media/thumb-6.jpg" alt="yup" className='photos' />
+                    <img src="media/thumb-3.jpg" alt="three teens thumbs up" className='photos' />
+                    <img src="media/thumb-4.jpg" alt="three kids thumbs up" className='photos' />
+                    <img src="media/thumb-5.jpg" alt="girl thumb up" className='photos' />
+                    <img src="media/thumb-6.jpg" alt="teen thumb up" className='photos' />
             </div>
 
         </div>        
