@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/landpage/static/css/main.8ec2ecab.chunk.css",
+    "main.js": "/landpage/static/js/main.6175244b.chunk.js",
+    "main.js.map": "/landpage/static/js/main.6175244b.chunk.js.map",
+    "runtime-main.js": "/landpage/static/js/runtime-main.0f4621ba.js",
+    "runtime-main.js.map": "/landpage/static/js/runtime-main.0f4621ba.js.map",
+    "static/css/2.a97733c1.chunk.css": "/landpage/static/css/2.a97733c1.chunk.css",
+    "static/js/2.0421357e.chunk.js": "/landpage/static/js/2.0421357e.chunk.js",
+    "static/js/2.0421357e.chunk.js.map": "/landpage/static/js/2.0421357e.chunk.js.map",
+    "index.html": "/landpage/index.html",
+    "static/css/2.a97733c1.chunk.css.map": "/landpage/static/css/2.a97733c1.chunk.css.map",
+    "static/css/main.8ec2ecab.chunk.css.map": "/landpage/static/css/main.8ec2ecab.chunk.css.map",
+    "static/js/2.0421357e.chunk.js.LICENSE.txt": "/landpage/static/js/2.0421357e.chunk.js.LICENSE.txt",
+    "static/media/books-head.b5bfe1a6.jpg": "/landpage/static/media/books-head.b5bfe1a6.jpg",
+    "static/media/bulb-hand.b946a1ff.jpg": "/landpage/static/media/bulb-hand.b946a1ff.jpg",
+    "static/media/pricing.scss": "/landpage/static/media/greywall.edb13950.png",
+    "static/media/intro.scss": "/landpage/static/media/introPic.3d6cd92b.jpg",
+    "static/media/mechanism.7577ad91.mov": "/landpage/static/media/mechanism.7577ad91.mov",
+    "static/media/contact.scss": "/landpage/static/media/notes.24a305e6.jpg",
+    "static/media/about.scss": "/landpage/static/media/portrait.e4d8d078.jpg",
+    "static/media/small-girl.5dbb8caf.jpg": "/landpage/static/media/small-girl.5dbb8caf.jpg",
+    "static/media/thumb1.83b81380.jpg": "/landpage/static/media/thumb1.83b81380.jpg",
+    "static/media/thumb2.aae714d0.jpg": "/landpage/static/media/thumb2.aae714d0.jpg",
+    "static/media/thumb3.6a7251e3.jpg": "/landpage/static/media/thumb3.6a7251e3.jpg",
+    "static/media/thumb4.e5079161.jpg": "/landpage/static/media/thumb4.e5079161.jpg",
+    "static/media/thumb5.5fff6e69.jpg": "/landpage/static/media/thumb5.5fff6e69.jpg",
+    "static/media/thumb6.10e02994.jpg": "/landpage/static/media/thumb6.10e02994.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0f4621ba.js",
+    "static/css/2.a97733c1.chunk.css",
+    "static/js/2.0421357e.chunk.js",
+    "static/css/main.8ec2ecab.chunk.css",
+    "static/js/main.6175244b.chunk.js"
+  ]
+}
