@@ -1,6 +1,15 @@
 import React from 'react';
 import './lessons.scss';
 // import {FcCollaboration} from 'react-icons/fc';
+import video from './media/mechanism.mov';
+import thumb1 from './media/thumb1.jpg';
+import thumb2 from './media/thumb2.jpg';
+import thumb3 from './media/thumb3.jpg';
+import thumb4 from './media/thumb4.jpg';
+import thumb5 from './media/thumb5.jpg';
+import thumb6 from './media/thumb6.jpg';
+
+
 
 
 const Method = () => {
@@ -31,17 +40,17 @@ const Method = () => {
                     {/* <video src='/media/mechanism.mov' autoPlay loop muted > 
                         <FcCollaboration /> 
                     </video> */}
-                    <video src='/public/media/mechanism.mov' autoPlay loop muted /> 
+                    <video src={video} autoPlay loop muted /> 
                 </div>
             </div>
 
             <div className='gallery'>             
-                    <img src="media/thumb-1.jpg" alt="boy thumb up" className="photos" />
-                    <img src="media/thumb-2.jpg" alt="happy face" className='photos' />
-                    <img src="media/thumb-3.jpg" alt="three teens thumbs up" className='photos' />
-                    <img src="media/thumb-4.jpg" alt="three kids thumbs up" className='photos' />
-                    <img src="media/thumb-5.jpg" alt="girl thumb up" className='photos' />
-                    <img src="media/thumb-6.jpg" alt="teen thumb up" className='photos' />
+                    <img src={thumb1} alt="boy thumb up" className="photos" />
+                    <img src={thumb2} alt="girl happy face" className='photos' />
+                    <img src={thumb3} alt="3 teens thumbs up" className='photos' />
+                    <img src={thumb4} alt="3 kids thumbs up" className='photos' />
+                    <img src={thumb5} alt="girl thumb up" className='photos' />
+                    <img src={thumb6} alt="teen thumb up" className='photos' />
             </div>
 
         </div>        

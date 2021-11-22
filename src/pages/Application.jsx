@@ -4,6 +4,10 @@ import './application.scss';
 // import { FcCollaboration, FcBullish, FcEngineering } from 'react-icons/fc';
 // import { FaGripfire, FaChalkboardTeacher } from 'react-icons/fa';
 import { GiTreeBranch, GiPlantWatering, GiFruitTree } from 'react-icons/gi';
+import arrows from './media/arrows.png';
+import bulbhand from './media/bulb-hand.jpg';
+import smallgirl from './media/small-girl.jpg';
+import bookshead from './media/books-head.jpg';
 
 
 const Method = () => {
@@ -18,7 +22,7 @@ const Method = () => {
           title: "koncept ",
           desc:
               "METHOD/CONCEPT jest moim narzędziem pracy, które zaprojektowałam w oparciu o doświadczenia z dwóch dziedzin tj. z prowadzonych przeze mnie terapii dla dzieci i młodzieży z trudnościami w nauce oraz własnych doświadczeń związanych z nauką angielskiego. Nie znalazłam odpowiedniego narzędzia. Są oczywiście lepsze i gorsze aplikacje, ale żadna nie spełniała w pełni moich oczekiwań. Diabeł tkwi w szczegółach. Wtedy zrodził się pomysł stworzenia projektu własnego narzędzia do nauki słów obcych i przekazania go do realizacji. KONCEPT polega na użyciu go przeze mnie jako narzędzia podczas lekcji oraz jako aplikacji do samodzielnej nauki dla innych. ",
-          img: <img src='media/bulb-hand.jpg' alt='bulb-with-cap.jpg'/>,
+          img: <img src={bulbhand} alt='bulb-with-cap.jpg'/>,
         },
         {
           id: "2",
@@ -26,7 +30,7 @@ const Method = () => {
           title: "metodyka ",
           desc:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ab ipsa, voluptatum neque quo nulla repellat. Laboriosam eos tenetur nam eligendi, optio iure, quisquam provident autem alias quam dolorem delectus.Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ab ipsa, voluptatum neque quo nulla repellat. Laboriosam eos tenetur nam eligendi, optio iure, quisquam provident autem alias quam dolorem delectus.",
-          img: <img src='media/small-girl.jpg' alt='gra słowna'/>,
+          img: <img src={smallgirl} alt='gra słowna'/>,
         },
         {
           id: "3",
@@ -34,7 +38,7 @@ const Method = () => {
           title: "rezultaty ",
           desc:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ab ipsa, voluptatum neque quo nulla repellat. Laboriosam eos tenetur nam eligendi, optio iure, quisquam provident autem alias quam dolorem delectus.Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ab ipsa, voluptatum neque quo nulla repellat. Laboriosam eos tenetur nam eligendi, optio iure, quisquam provident autem alias quam dolorem delectus.",
-          img: <img src='media/books-head.jpg' alt='gra słowna'/>,
+          img: <img src={bookshead} alt='gra słowna'/>,
         },
       ];
 
@@ -52,8 +56,8 @@ const Method = () => {
                 <h4> &#160; aplikacja </h4>
             </div> */}
 
-            <img src='media/arrow.png' alt='arrow left' className='arrow left' onClick={() => handleClick('left')}  />
-            <img src='media/arrow.png' alt='arrow right' className='arrow right' onClick={() => handleClick()}  />
+            <img src={arrows} alt='arrow left' className='arrow left' onClick={() => handleClick('left')}  />
+            <img src={arrows} alt='arrow right' className='arrow right' onClick={() => handleClick()}  />
 
             <div 
                 className='slider' 
