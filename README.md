@@ -1,4 +1,4 @@
-# Single page website based on react router
+# Single page website based on react-router
 
 
 # Getting Started with Create React App
